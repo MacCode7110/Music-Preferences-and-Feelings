@@ -14,4 +14,4 @@
 * **Purpose:** [Information Correction]
 
 ### Steps Executed:
-1. **[Correction]** Corrected information in the [song_name], [artist_name], and [primary_feeling] columns for 9 rows.
+1. **[Correction]** Corrected information in the [song_name], [artist_name], and [primary_feeling] columns for rows 2-10.
