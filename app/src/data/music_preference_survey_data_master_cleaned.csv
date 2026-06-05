@@ -1,7 +1,5 @@
-What is your favorite song? Please enter (1) the song name and (2) the corresponding artist name. Please use correct spelling.,,What is the primary feeling that your favorite song creates within you? Please enter only one feeling and use correct spelling.
-Song Name,Artist Name,Open-Ended Response
+song_name,artist_name,primary_feeling
 Pieces,Muscadine bloodline,Peace
-n/a,n/a,n/a
 Under Pressure,Queen & David Bowie,Energy 
 Drops of Jupiter,Train,elation
 Sweet Caroline,Neil Diamond,Joy
@@ -34,7 +32,6 @@ Billy Jean,Michael Jackson,Happy
 Never Say Goodbye,Bon jovi,happy
 Country roads,John Denver,Nostalgia
 halo,beyounce,sad
-na,na,na
 gratitude,brandon lake,gratitude
 Paradise City,Guns & Roses,Nostalgia
 THE ONE,MARY J BLIGE,EMPOWERMENT
@@ -84,7 +81,6 @@ Gods plan,Drake,Inspiration
 Goodbye,Celine dion,warmth
 Your way’s better,Forrest Frank,Freedom
 An empty street,Celine deon,it creates a state of calmness in me
-N/a,N/a,N/a
 under the influence,christbrown,emotional
 lemonade,Beyonce,it makes me feel confident
 No You,ZoeGIRL,joy
@@ -93,13 +89,10 @@ American girl,Harry style,Happy
 the the the,i don’t know,the only way i could
 shake it off,Tailor Swift,relaxed
 Luther,Kendrick Lamar,Feels Good
-na,na,na
 worship,Asake,Blessed
 Firework,Katy Perry,Happy
-n/a,n/a,n/a
 Heroes,David Bowie,Joy
 mikel,joy,great
-N/A,N/A,N/A
 love,wiskid,the beat
 A bar song ,Shaboozey,Carefree
 It's Too Late,Carole King,I have felt that during a relationship I had
@@ -173,7 +166,6 @@ yes,good,yes
 Every Chance I get,Dj khaled,It gives me joy 
 Fucking Determined ,Mudvayne,My mom told me that I couldn’t survive without her 
 Enchanted,Taylor Swift,Comfort
-NA,Na,NA
 Walk in My Shoes,Depeche Mode,Strength
 Iron man,Black sabbath ,Joy
 Red Guitar,Kris Allen,Warmth
