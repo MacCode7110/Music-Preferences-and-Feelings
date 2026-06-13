@@ -55,3 +55,12 @@
 ### Steps Executed:
 
 1. **[Correction]** Corrected information in [song_name], [artist_name], and [primary_feeling] columns for rows 113-219.
+
+## [2026-6-12] - [Matthew McAlarney - Web Developer, Data Developer]
+
+- **Target File:** `music_preference_survey_data_master_cleaned.csv` -> `music_preference_survey_data_master_cleaned.csv`
+- **Purpose:** [Column Addition]
+
+### Steps Executed:
+
+1. **[Addition]** Added a column named [track_id] preceding the [song_name], [artist_name], and [primary_feeling] columns.
