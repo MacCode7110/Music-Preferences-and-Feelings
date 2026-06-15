@@ -61,7 +61,7 @@ As music_preference_survey_data_master_cleaned is a small dataset and contains o
 ## [2026-6-12] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preference_survey_data_master_cleaned.csv` -> `music_preference_survey_data_master_cleaned.csv`
-- **Purpose:** [Column Addition - Manual Action]
+- **Purpose:** [Column Addition - Manual Execution]
 
 ### Steps Executed:
 
