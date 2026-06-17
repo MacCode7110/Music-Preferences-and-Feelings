@@ -31,6 +31,6 @@ As music_preference_survey_data_master_cleaned is a small dataset and contains o
 
     b. [Data Enrichment] Processed all remaining rows to correct information and add data from the Spotify Web API:
         
-        I. **[Correction]** Corrected information in [song_name] and [artist_name] columns for _ remaining rows in the sequence.
+        I. [Correction] Corrected information in [song_name] and [artist_name] columns for _ remaining rows in the sequence.
         
-        II. **[Addition]** Added the track_id from the Spotify Web API to the [track_id] column for _ remaining rows in the sequence.
+        II. [Addition] Added the track_id from the Spotify Web API to the [track_id] column for _ remaining rows in the sequence.
