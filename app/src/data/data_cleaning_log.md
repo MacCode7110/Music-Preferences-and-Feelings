@@ -4,7 +4,7 @@ Web Developer and Data Researcher: Matthew McAlarney (Web Developer, Data Resear
 
 As music_preference_survey_data_master_cleaned is a small dataset and contains open-response survey data that represents human thought and writing, certain steps are manually executed to remove and correct song and artist information using human evaluation and decision. Python scripts are executed to build music_preference_survey_data_master_cleaned to add WAV files and sonic features through Essentia for each song.
 
-## [2026-6-18 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
+## [2026-6-22 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preference_survey_data_master_raw.csv` -> `music_preference_survey_data_master_cleaned_v1.csv`
 - **Data Shape Change:** 277 rows * 19 columns -> 269 rows * 3 columns
@@ -20,38 +20,33 @@ As music_preference_survey_data_master_cleaned is a small dataset and contains o
 3. **[Correction]** Standardized 22 null values to display NA.
 4. **[Removal]** Deleted 7 rows each containing all NA values.
 
-## [2026-6-20 - V2 Continuation] - [Matthew McAlarney - Web Developer, Data Researcher]
+## [2026-6-22 - V2] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preference_survey_data_master_cleaned_v1.csv` -> `music_preference_survey_data_master_cleaned_v2.csv`
-- **Data Shape Change:** 269 rows * 3 columns -> 262 rows * 3 columns
+- **Data Shape Change:** 269 rows * 3 columns -> _ rows * 3 columns
+- **Purpose:** [Dataset Truncation (Chronological Slicing) - Manual Context Review]
+- **Initial Raw Submissions:** 275 total survey responses
+- **Methodology:** To maintain an efficient manual data-cleaning workflow and prevent arbitrary selection bias, a Chronological Slicing (First-Come, First-Served) method was applied. The first 85 consecutive survey responses were selected strictly according to submission timestamp. All subsequent 190 survey responses were excluded from this phase of analysis.
+- **Resulting Batch Size:** 85 rows.
+
+### Steps Executed:
+
+1. **[Removal]** Deleted all subsequent 190 survey responses submitted after the first 85 consecutive survey responses according to submission timestamp.
+
+## [2026-6-22 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
+
+- **Target File:** `music_preference_survey_data_master_cleaned_v2.csv` -> `music_preference_survey_data_master_cleaned_v3.csv`
+- **Data Shape Change:** _ rows * 3 columns -> _ rows * 3 columns
 - **Purpose:** [Complete Quality Sweep - Manual Context Review]
 
 ### Steps Executed:
 
 1. **[Complete Quality Sweep]** Processed remaining rows to remove invalid data and correct information:
 
-    a. [Removal] 5 rows deleted because the submitted song, artist and primary feeling information lacks sufficient written context to correct.
+    a. [Removal] _ rows deleted because the submitted song, artist and primary feeling information lacks sufficient written context to correct.
 
-    b. [Removal] 0 rows deleted because the submitted song and artist information is a duplication of previously corrected song and artist information.
+    b. [Removal] _ rows deleted because the submitted song and artist information is a duplication of previously corrected song and artist information.
 
-    c. [Removal] 2 rows deleted because the submitted song and artist information is connected to insufficient data in Youtube Music.
+    c. [Removal] _ rows deleted because the submitted song and artist information is connected to insufficient data in Youtube Music.
 
-    d. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 12 remaining rows in the sequence.
-
-## [2026-6-21 - V2] - [Matthew McAlarney - Web Developer, Data Researcher]
-
-- **Target File:** `music_preference_survey_data_master_cleaned_v2.csv` -> `music_preference_survey_data_master_cleaned_v2.csv`
-- **Data Shape Change:** 262 rows * 3 columns -> X rows * 3 columns
-- **Purpose:** [Complete Quality Sweep - Manual Context Review]
-
-### Steps Executed:
-
-1. **[Complete Quality Sweep]** Processed remaining rows to remove invalid data and correct information:
-
-    a. [Removal] 18 rows deleted because the submitted song, artist and primary feeling information lacks sufficient written context to correct.
-
-    b. [Removal] 1 row deleted because the submitted song and artist information is a duplication of previously corrected song and artist information.
-
-    c. [Removal] 10 rows deleted because the submitted song and artist information is connected to insufficient data in Youtube Music.
-
-    d. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 50 remaining rows in the sequence.
+    d. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for _ remaining rows in the sequence.
