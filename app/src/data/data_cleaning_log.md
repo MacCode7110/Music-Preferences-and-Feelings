@@ -48,7 +48,9 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 ## Pipeline Limitations
 
-By utilizing untampered song files through various release types (singles, standard recording EPs, and standard recording LPs), the Essentia sonic feature extraction process introduces a systematic production bias. Since singles, standard recording EPs, and standard recording LPs frequently undergo differing mastering processes and structural alterations, the resulting Essentia sonic features represent differences in commercial audio engineering as well as the musical qualities of the songs. Consequently, data clustering in the PCA Plot may partially group songs based on release type rather than similar musical and structural aspects.
+1. The yt-dlp Python library is utilized to download and extract the highest quality available compressed audio from Youtube Music. Then, yt-dlp uses FFmpeg to tranform the compressed audio into an uncompressed WAV file. There is some probability that the subset of selected songs are associated with WAV files containing different levels of audio quality. As a result, data clustering in the PCA Plot may partially reflect musical qualities that do not accurately characterize the sonic makeup of certain songs.
+
+2. By utilizing untampered song files through various release types (singles, standard recording EPs, and standard recording LPs), the Essentia sonic feature extraction process introduces a systematic production bias. Since singles, standard recording EPs, and standard recording LPs frequently undergo differing mastering processes and structural alterations, the resulting Essentia sonic features represent differences in commercial audio engineering as well as the musical qualities of the songs. Consequently, data clustering in the PCA Plot may partially group songs based on release type rather than similar musical and structural aspects.
 
 ## [2026-6-22 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
