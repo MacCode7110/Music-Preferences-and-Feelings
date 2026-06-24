@@ -39,7 +39,9 @@ Data Correction Rules:
     3. Correct primary feeling data when there is an obvious formal equivalent:
         Example: Changing a primary feeling field from "Fire" to "Energized".
 
-To guarantee a robust procedure for sonic feature extraction throughout all songs, official and original song releases from standard recording LPs, standard recording EPs, and singles are obtained. The PCA Plot presents unique, accurate sonic representations of each song and fair comparisons.
+To guarantee a robust procedure for sonic feature extraction throughout all songs, official and original song releases from standard recording LPs, standard recording EPs, and singles are obtained. The PCA Plot presents unique sonic representations of each song.
+
+By utilizing untampered song files through various release types (singles, standard recording EPs, and standard recording LPs), the Essentia sonic feature extraction process introduces a systematic production bias. Since singles, standard recording EPs, and standard recording LPs frequently undergo differing mastering processes and structural alterations, the resulting Essentia sonic features represent differences in commercial audio engineering as well as the musical qualities of the songs. Consequently, data clustering in the PCA Plot may partially group songs based on release type rather than similar musical and structural aspects.
 
 ## [2026-6-22 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
