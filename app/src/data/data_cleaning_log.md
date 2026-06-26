@@ -15,7 +15,7 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
             I. Single: Usually consists of 1–3 songs with a focus on a lead promotional song.
             II. Standard Recording EP (Extended Play): Usually consists of 4–6 songs and is longer than a single.
             III. Standard Recording LP (Long Play): A full-length presentation of songs, which usually consists of at least 7 songs.
-            IV. Maxi-Single: A specific collection frequently utilized in Dance, Electronic, and Hip Hop music that contains a lead single and an array of remixe recordings, instrumental recordings, and B-sides.
+            IV. Maxi-Single: A specific collection frequently utilized in Dance, Electronic, and Hip Hop music that contains a lead single and an array of remix recordings, instrumental recordings, and B-sides.
             V. Double LP: A collection consisting of a pair of distinct volumes released within the same product. This is also a subset of the standard recording LP release type.
         b. Specialized Audio Editions and Re-release Formats:
             I. Deluxe: An extended reissue of an existing standard recording LP containing bonus songs, demo songs, and/or b-side songs.
