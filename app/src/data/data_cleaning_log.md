@@ -50,11 +50,11 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
     3. A standard recording EP is the official version of an Extended Play.
 
-    4. An official release of a song is an Audio Object in Youtube Music, which is different from a Music Video Object in Youtube Music. A song is officially released through any one of the release type groups detailed in Step 1. A song is not officially released as a music video.
+    4. An official release of a song is an Audio Object in Youtube Music, which is different from a Music Video Object in Youtube Music. A song is officially released through any one of the release type groups detailed in Item 1. A song is not officially released as a music video.
 
     5. There is some probability that the release of a song in one particular format is sonically different compared to the release of a song in a different particular format.
 
-    6. An original release of a song is the type of release where the song is first available. A song is first available through any one of the release type groups detailed in Step 1.
+    6. An original release of a song is the type of release where the song is first available. A song is first available through any one of the release type groups detailed in Item 1.
 
     7. Later pressings of an original release type that are renamed qualify as the original release type.
 
