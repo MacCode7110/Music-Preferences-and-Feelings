@@ -2,6 +2,8 @@
 
 Web Developer and Data Researcher: Matthew McAlarney (Web Developer, Data Researcher)
 
+## Technologies: Python, Pandas, yt-dlp, FFmpeg, Essentia Audio Analysis, PCA (Principal Component Analysis)
+
 ## Data Collection & Management Summary
 
 The _Music Preference Survey - Independent Study 2026_ survey was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total 275 survey responses from full-time employees were collected and downloaded to music_preference_survey_data_master_raw.csv.
@@ -93,7 +95,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
    c. [Open-Ended Response] -> [primary_feeling]
 2. **[Removal]** Deleted 1 filler row (Row 1) containing survey question column names [What is your favorite song? Please enter (1) the song name and (2) the corresponding artist name. Please use correct spelling.], [What is the primary feeling that your favorite song creates within you? Please enter only one feeling and use correct spelling.].
 3. **[Correction]** Standardized 22 null values to display NA.
-4. **[Removal]** Deleted 7 rows each containing all NA values.
+4. **[Removal]** Deleted 7 rows each containing exclusively NA values.
 
 ## [2026-6-25 - V2] - [Matthew McAlarney - Web Developer, Data Researcher]
 
