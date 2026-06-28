@@ -82,13 +82,15 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
 ## Song Identification Method
 
-To guarantee a fair procedure for sonic feature extraction throughout all songs, only official song releases from standard recording LPs, standard recording EPs, and singles are obtained. Standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing and arrangement is purposeful and originally produced for a holistic listening experience. In contrast, release types belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established identification method. Restricting the pipeline to consume song releases from standard recording LPs, standard recording EPs, and singles establishes a sonic control variable. The restriction enables the PCA Plot clustering to reflect differences in song structure and musical qualities with a greater level of accuracy rather than differences in varying recording environments and engineering outputs. The PCA Plot presents unique sonic representations of each selected song.
+To guarantee a fair procedure for sonic feature extraction throughout all songs, only official song releases through standard recording LPs, standard recording EPs, and singles are obtained. Standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing and arrangement is purposeful and originally produced for a holistic listening experience. In contrast, release types belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established identification method. Restricting the pipeline to consume song releases from standard recording LPs, standard recording EPs, and singles establishes a sonic control variable. The restriction enables the PCA Plot clustering to reflect differences in song structure and musical qualities with a greater level of accuracy rather than differences in varying recording environments and engineering outputs. The PCA Plot presents unique sonic representations of each selected song.
 
 ## Pipeline Limitations
 
 1. The yt-dlp Python library is utilized to download and extract the highest quality available compressed audio from Youtube Music. Subsequently, yt-dlp uses FFmpeg to transform the compressed audio into an uncompressed WAV file. There is some probability that the subset of selected songs are associated with WAV files containing different levels of audio quality and distortion. As a result, data clustering in the PCA Plot may partially reflect musical qualities that do not accurately characterize the original sonic makeup of certain songs.
 
 2. By utilizing untampered WAV files through various release types (singles, standard recording EPs, and standard recording LPs), the Essentia sonic feature extraction process introduces a systematic production bias. Since singles, standard recording EPs, and standard recording LPs frequently undergo differing mastering procedures and structural modifications, the resulting Essentia sonic features represent differences in audio engineering as well as the musical qualities of the songs. Consequently, data clustering in the PCA Plot may partially group songs based on release type and audio engineering output rather than similar musical and structural aspects.
+
+3. When Youtube Music offers certain singles, standard recording EPs, and standard recording LPs containing songs that also have been remastered, there is a greater probability that the audio streamed through this particular subset of singles, standard recording EPs, and standard recording LPs is sourced from remastered modifications of the encompassing songs. The acquisition of songs from singles, standard recording EPs, and standard recording LPs in Youtube Music also carries a systematic production bias. Consequently, data clustering in the PCA Plot may partially group songs based on audio engineering output rather than similar musical qualities and structural aspects.
 
 ## [2026-6-22 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
@@ -119,7 +121,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 1. **[Removal]** Executed `simple_random_sample.py` to randomly select 85 unique survey responses from the 268 data rows, omitting 183 remaining data rows.
 
-## [2026-6-27 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
+## [2026-6-28 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preference_survey_data_master_cleaned_v2.csv` -> `music_preference_survey_data_master_cleaned_v3.csv`
 - **Data Shape Change:** 86 (1 header row + 85 data rows) rows * 3 columns -> _ rows * 3 columns
@@ -129,14 +131,14 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 1.   **[Complete Quality Sweep]** Processed remaining 85 rows to remove invalid data and systematically correct information:
 
-     a. [Removal] _ rows deleted because the song, artist and primary feeling lacked sufficient written context to satisfy all of the following standards:
+     a. [Removal] 5 rows deleted because the song, artist and primary feeling lacked sufficient written context to satisfy all of the following standards:
 
-        I. A song officially released by the artist.
+        I. A specific song officially released by a specific artist where the intention of the respondent is completely clear in the written response.
 
         II. A primary feeling that satisfies the following standard:
             a. A primary feeling that is one word, completely grammatically correct, completely reflects natural speech, and communicates a reasonably accurate meaning with complete clarity.
 
-     b. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially released the song, the artist did not officially and originally release the song through any of the following formats:
+     b. [Removal] 2 rows deleted because although there was sufficient written context to verify that the artist officially released the song, the artist did not officially and originally release the song through any of the following formats:
 
         I. Standard Recording LP
         
@@ -144,7 +146,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
         III. Single
 
-     c. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song, the song and artist pairing is connected to insufficient data in Youtube Music. Insufficient data in Youtube Music satisfies one of the following conditions:
+     c. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, the song and artist pairing is connected to insufficient data in Youtube Music. Insufficient data in Youtube Music satisfies one of the following conditions:
 
          I. The song was officially and originally released within a standard recording LP, and the official and original standard recording LP release containing the song is not in Youtube Music. Any alternative official standard recording EP release containing the official song is not in Youtube Music, and any alternative official single release is not in Youtube Music.
 
@@ -153,6 +155,6 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
          III. The song was officially and originally released as a single, and the official and original single release is not in Youtube Music. Any alternative official standard recording EP release containing the official song is not in Youtube Music, and any alternative official standard recording LP release containing the official song is not in Youtube Music.
 
 
-     d. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song, and the song and artist pairing is connected to sufficient data in Youtube Music, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
+     d. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, and the song and artist pairing is connected to sufficient data in Youtube Music, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
 
-     e. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for _ remaining rows in the sequence.
+     e. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 9 remaining rows in the sequence.
