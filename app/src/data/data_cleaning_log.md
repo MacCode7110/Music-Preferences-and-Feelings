@@ -52,13 +52,13 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
     3. A standard recording EP is the official version of an Extended Play.
 
-    4. An official release of a song is an Audio Object in Youtube Music, which is different from a Music Video Object in Youtube Music. A song is officially released through any one of the release type groups detailed in Item 1. A song is not officially released as a music video.
+    4. An official release of a song is an Audio Object in Youtube Music, which is different from a Music Video Object in Youtube Music. A song is officially released through any one of the release format groups detailed in Item 1. A song is not officially released as a music video.
 
     5. There is some probability that the release of a song in one particular format is sonically different compared to the release of a song in a different particular format.
 
-    6. An original release of a song is the type of release where the song is first available. A song is first available through any one of the release type groups detailed in Item 1.
+    6. An original release of a song is the release format where the song is first available. A song is first available through any one of the release format groups detailed in Item 1.
 
-    7. Later pressings of an original release type that are renamed qualify as the original release type.
+    7. Later pressings of an original release format that are renamed qualify as the original release format.
 
 ## Data Correction Standards
 
@@ -86,11 +86,11 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
     2. Is the current release format (rendered in Youtube Music) the official and original release of the song?
 
-    3. Does the current release format (rendered in Youtube Music) completely accurately represent the original release format on a digital level? A completely accurate representation of the original release format on a digital level maintains the original count, list, and ordering of songs. If the current release format (rendered in Youtube Music) completely accurately represents the original release format on a digital level, then the current release format (rendered in Youtube Music) qualifies as the original release.
+    3. If the song was officially and originally released through a standard recording LP, standard recording EP, or single, then do any of the digital standard recording LP, standard recording EP, or single release formats accurately maintain a corresponding original structure? To accurately maintain a corresponding original structure, a release format preserves the original count, list, and ordering of songs. If a release format accurately maintains a corresponding original structure, then the release format is structurally correct.
 
 ## Song Identification Method
 
-To guarantee a fair procedure for sonic feature extraction throughout all songs, only official song releases through original standard recording LPs, standard recording EPs, and singles are obtained.Standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing and arrangement is purposeful and originally produced for a holistic listening experience. In contrast, release types belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established identification method. Restricting the pipeline to consume song releases from standard recording LPs, standard recording EPs, and singles establishes a sonic control variable. The restriction enables the PCA Plot clustering to reflect differences in song structure and musical qualities with a greater level of accuracy rather than differences in varying recording environments and engineering outputs. The PCA Plot presents unique sonic representations of each selected song.
+To guarantee a fair procedure for sonic feature extraction throughout all songs, only official song releases through structurally correct standard recording LPs, standard recording EPs, and singles are obtained. Standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing and arrangement is purposeful and originally produced for a holistic listening experience. In contrast, release types belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established identification method. Restricting the pipeline to consume song releases from standard recording LPs, standard recording EPs, and singles establishes a sonic control variable. The restriction enables the PCA Plot clustering to reflect differences in song structure and musical qualities with a greater level of accuracy rather than differences in varying recording environments and engineering outputs. The PCA Plot presents unique sonic representations of each selected song.
 
 ## Pipeline Limitations
 
@@ -155,11 +155,11 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
      c. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, the song and artist pairing is connected to insufficient data in Youtube Music. Insufficient data in Youtube Music achieves one of the following findings:
 
-         I. The song was officially and originally released within a standard recording LP, and the official and original standard recording LP release containing the song is not in Youtube Music. There is not an official and original standard recording EP release containing the official song in Youtube Music, and there is not an official and original single release in Youtube Music.
+         I. The song was officially and originally released within a standard recording LP, and the official, original, and structurally correct standard recording LP release containing the song is not in Youtube Music. There is not an official, structurally correct standard recording EP release containing the song in Youtube Music, and there is not an official, structurally correct single release containing the song in Youtube Music.
 
-         II. The song was officially and originally released within a standard recording EP, and the official and original standard recording EP release containing the song is not in Youtube Music. There is not an official and original standard recording LP release containing the official song in Youtube Music, and there is not an official and original single release in Youtube Music.
+         II. The song was officially and originally released within a standard recording EP, and the official, original, and structurally correct standard recording EP release containing the song is not in Youtube Music. There is not an official, structurally correct standard recording LP release containing the song in Youtube Music, and there is not an official, structurally correct single release containing the song in Youtube Music.
 
-         III. The song was officially and originally released as a single, and the official and original single release is not in Youtube Music. There is not an official and original standard recording EP release containing the official song in Youtube Music, and there is not an official and original standard recording LP release containing the official song in Youtube Music.
+         III. The song was officially and originally released as a single, and the official, original, and structurally correct single release is not in Youtube Music. There is not an official, structurally correct standard recording EP release containing the song in Youtube Music, and there is not an official, structurally correct LP release containing the song in Youtube Music.
 
 
      d. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, and the song and artist pairing is connected to sufficient data in Youtube Music, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
