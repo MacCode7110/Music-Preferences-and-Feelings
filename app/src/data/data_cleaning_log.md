@@ -86,7 +86,7 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
     2. Is the current release format (rendered in Youtube Music) the official and original release of the song?
 
-    3. If the song was officially and originally released through a standard recording LP, standard recording EP, or single, then do any of the digital standard recording LP, standard recording EP, or single release formats accurately maintain a corresponding original structure? To accurately maintain a corresponding original structure, a release format preserves the original count, list, and ordering of songs. If a release format accurately maintains a corresponding original structure, then the release format is structurally correct.
+    3. If the song was officially and originally released through a standard recording LP, standard recording EP, or single, then do any of the standard recording LP, standard recording EP, or single release formats in Youtube Music accurately maintain a corresponding original structure? To accurately maintain a corresponding original structure, a release format preserves the original count, list, and ordering of songs. If a release format accurately maintains a corresponding original structure, then the release format is structurally correct.
 
 ## Song Identification Method
 
