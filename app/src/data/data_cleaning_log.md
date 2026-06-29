@@ -52,7 +52,7 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
     3. A standard recording EP is the official version of an Extended Play.
 
-    4. An official release of a song is an Audio Object in Youtube Music, which is different from a Music Video Object in Youtube Music. A song is officially released through any one of the release format groups detailed in Item 1. A song is not officially released as a music video.
+    4. An official release of a song is an Audio Object in YouTube Music, which is different from a Music Video Object in YouTube Music. A song is officially released through any one of the release format groups detailed in Item 1. A song is not officially released as a music video.
 
     5. There is some probability that the release of a song in one particular format contains different engineering output and musical qualities compared to the release of a song in a different particular format.
 
@@ -84,9 +84,9 @@ As music_preference_survey_data_master_raw is a small dataset and contains open-
 
     1. Through what release format was the song officially and originally released?
 
-    2. Is the current release format (rendered in Youtube Music) the official and original release of the song?
+    2. Is the current release format (rendered in YouTube Music) the official and original release of the song?
 
-    3. If the song was officially and originally released through a standard recording LP, standard recording EP, or single, then do any of the standard recording LP, standard recording EP, or single release formats in Youtube Music accurately maintain a corresponding original structure? To accurately maintain a corresponding original structure, a release format preserves the original count, list, and ordering of songs. If a release format accurately maintains a corresponding original structure, then the release format is structurally correct.
+    3. If the song was officially and originally released through a standard recording LP, standard recording EP, or single, then do any of the standard recording LP, standard recording EP, or single release formats in YouTube Music accurately maintain a corresponding original structure? To accurately maintain a corresponding original structure, a release format preserves the original count, list, and ordering of songs. If a release format accurately maintains a corresponding original structure, then the release format is structurally correct.
 
 ## Song Identification Method
 
@@ -94,11 +94,11 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 ## Pipeline Limitations
 
-1. The yt-dlp Python library is utilized to download and extract the highest quality available compressed audio from Youtube Music. Subsequently, yt-dlp uses FFmpeg to transform the compressed audio into an uncompressed WAV file. There is some probability that the subset of selected songs are associated with WAV files containing different levels of audio quality and distortion. As a result, data clustering in the PCA Plot may partially reflect musical qualities that do not accurately represent the original musical qualities of certain songs.
+1. The yt-dlp Python library is utilized to download and extract the highest quality available compressed audio from YouTube Music. Subsequently, yt-dlp uses FFmpeg to transform the compressed audio into an uncompressed WAV file. There is some probability that the subset of selected songs are associated with WAV files containing different levels of audio quality and distortion. As a result, data clustering in the PCA Plot may partially reflect musical qualities that do not accurately represent the original musical qualities of certain songs.
 
 2. By utilizing untampered WAV files through standard recording LPs, standard recording EPs, and singles, the Essentia sonic feature extraction process introduces a systematic production bias. Since standard recording LPs, standard recording EPs, and singles frequently experience differing mastering procedures and structural modifications, the resulting Essentia sonic features represent differences in release format and engineering output as well as the musical qualities of the songs. Consequently, data clustering in the PCA Plot may partially group songs based on release format and engineering output rather than similar musical qualities.
 
-3. When Youtube Music offers certain standard recording LPs, standard recording EPs, and singles containing songs that also have been remastered, there is a greater probability that the audio streamed through this particular subset of standard recording LPs, standard recording EPs, and singles is sourced from remastered modifications of the songs. The acquisition of songs from standard recording LPs, standard recording EPs, and singles in Youtube Music also creates a systematic production bias.Consequently, data clustering in the PCA Plot may partially group songs based on engineering output rather than similar musical qualities.
+3. When YouTube Music offers certain standard recording LPs, standard recording EPs, and singles containing songs that also have been remastered, there is a greater probability that the audio streamed through this particular subset of standard recording LPs, standard recording EPs, and singles is sourced from remastered modifications of the songs. The acquisition of songs from standard recording LPs, standard recording EPs, and singles in YouTube Music also creates a systematic production bias.Consequently, data clustering in the PCA Plot may partially group songs based on engineering output rather than similar musical qualities.
 
 ---
 
@@ -159,16 +159,16 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
         III. Single
 
-     c. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, the song and artist pairing is connected to insufficient data in Youtube Music. Insufficient data in Youtube Music achieves one of the following findings:
+     c. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, the song and artist pairing is connected to insufficient data in YouTube Music. Insufficient data in YouTube Music achieves one of the following findings:
 
-         I. The song was officially and originally released within a standard recording LP, and the official, original, and structurally correct standard recording LP release containing the song is not in Youtube Music. There is not an official, structurally correct standard recording EP release containing the song in Youtube Music, and there is not an official, structurally correct single release containing the song in Youtube Music.
+         I. The song was officially and originally released within a standard recording LP, and the official, original, and structurally correct standard recording LP release containing the song is not in YouTube Music. There is not an official, structurally correct standard recording EP release containing the song in YouTube Music, and there is not an official, structurally correct single release containing the song in YouTube Music.
 
-         II. The song was officially and originally released within a standard recording EP, and the official, original, and structurally correct standard recording EP release containing the song is not in Youtube Music. There is not an official, structurally correct standard recording LP release containing the song in Youtube Music, and there is not an official, structurally correct single release containing the song in Youtube Music.
+         II. The song was officially and originally released within a standard recording EP, and the official, original, and structurally correct standard recording EP release containing the song is not in YouTube Music. There is not an official, structurally correct standard recording LP release containing the song in YouTube Music, and there is not an official, structurally correct single release containing the song in YouTube Music.
 
-         III. The song was officially and originally released as a single, and the official, original, and structurally correct single release is not in Youtube Music. There is not an official, structurally correct standard recording EP release containing the song in Youtube Music, and there is not an official, structurally correct LP release containing the song in Youtube Music.
+         III. The song was officially and originally released as a single, and the official, original, and structurally correct single release is not in YouTube Music. There is not an official, structurally correct standard recording EP release containing the song in YouTube Music, and there is not an official, structurally correct LP release containing the song in YouTube Music.
 
 
-     d. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, and the song and artist pairing is connected to sufficient data in Youtube Music, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
+     d. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, and the song and artist pairing is connected to sufficient data in YouTube Music, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
 
      e. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for _ remaining rows in the sequence.
 
