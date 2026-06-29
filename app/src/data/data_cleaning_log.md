@@ -107,6 +107,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 - **Target File:** `music_preference_survey_data_master_raw.csv` -> `music_preference_survey_data_master_cleaned_v1.csv`
 - **Data Shape Change:** 277 rows (2 header rows + 275 data rows) * 19 columns -> 269 (1 header row + 268 data rows) rows * 3 columns
 - **Purpose:** [Initial Quality Sweep - Manual Context Review, Establish Structural Baseline]
+- **Initial Raw Submissions:** 275 total survey responses
 
 ### Steps Executed:
 
@@ -125,8 +126,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 - **Target File:** `music_preference_survey_data_master_cleaned_v1.csv` -> `music_preference_survey_data_master_cleaned_v2.csv`
 - **Data Shape Change:** 269 (1 header row + 268 data rows) rows * 3 columns -> 86 (1 header row + 85 data rows) rows * 3 columns
 - **Purpose:** [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Valid Dataset]
-- **Initial Raw Submissions:** 275 total survey responses
-- **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the valid full-time employee respondent pool, a Simple Random Sampling method was applied. Using the `simple_random_sampling.py` Python program with a constant random seed (random_state=0) to enforce reproducibility, 85 unique survey responses were randomly selected from the 268 data rows. The sample size represents approximately 31.7% of the valid full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
+- **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the valid full-time employee respondent pool, a Simple Random Sampling method was applied. Using the `simple_random_sampling.py` Python program with a constant random seed (random_state=0) to enforce reproducibility, 85 unique survey responses were randomly selected from the remaining 268 data rows following the *Initial Quality Sweep* in V1. The sample size represents approximately 31.7% of the valid full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
 - **Resulting Batch Size:** 85 data rows
 
 ### Steps Executed:
@@ -140,6 +140,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 - **Target File:** `music_preference_survey_data_master_cleaned_v2.csv` -> `music_preference_survey_data_master_cleaned_v3.csv`
 - **Data Shape Change:** 86 (1 header row + 85 data rows) rows * 3 columns -> _ rows * 3 columns
 - **Purpose:** [Complete Quality Sweep - Manual Context Review, Remove Invalid Data and Systematically Correct Information]
+- **Statistical Acknowledgement**: While the 85 data rows sampled during the *Dataset Truncation (Simple Random Sampling)* in V2 establishes a 95% confidence level and margin of error less than 9% for the valid full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to _. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.
 
 ### Steps Executed:
 
