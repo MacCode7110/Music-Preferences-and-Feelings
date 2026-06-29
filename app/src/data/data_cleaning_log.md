@@ -131,7 +131,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 1.   **[Complete Quality Sweep]** Processed remaining 85 rows to remove invalid data and systematically correct information:
 
-     a. [Removal] 10 rows deleted because the song, artist and primary feeling lacked sufficient written context to achieve both of the following standards:
+     a. [Removal] 13 rows deleted because the song, artist and primary feeling lacked sufficient written context to achieve both of the following standards:
 
         I. A song officially and originally released by the artist where the intention of the respondent is completely clear in the written response.
 
@@ -145,15 +145,15 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
         III. Single
 
-     c. [Removal] 4 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, the song and artist pairing is connected to insufficient data in Youtube Music. Insufficient data in Youtube Music achieves one of the following findings:
+     c. [Removal] 6 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, the song and artist pairing is connected to insufficient data in Youtube Music. Insufficient data in Youtube Music achieves one of the following findings:
 
-         I. The song was officially and originally released within a standard recording LP, and the official and original standard recording LP release containing the song is not in Youtube Music. There is not an official standard recording EP release containing the official song in Youtube Music, and there is not an official single release in Youtube Music.
+         I. The song was officially and originally released within a standard recording LP, and the official and original standard recording LP release containing the song is not in Youtube Music. There is not an official and original standard recording EP release containing the official song in Youtube Music, and there is not an official and original single release in Youtube Music.
 
-         II. The song was officially and originally released within a standard recording EP, and the official and original standard recording EP release containing the song is not in Youtube Music. There is not an official standard recording LP release containing the official song in Youtube Music, and there is not an official single release in Youtube Music.
+         II. The song was officially and originally released within a standard recording EP, and the official and original standard recording EP release containing the song is not in Youtube Music. There is not an official and original standard recording LP release containing the official song in Youtube Music, and there is not an official and original single release in Youtube Music.
 
-         III. The song was officially and originally released as a single, and the official and original single release is not in Youtube Music. There is not an official standard recording EP release containing the official song in Youtube Music, and there is not an official standard recording LP release containing the official song in Youtube Music.
+         III. The song was officially and originally released as a single, and the official and original single release is not in Youtube Music. There is not an official and original standard recording EP release containing the official song in Youtube Music, and there is not an official and original standard recording LP release containing the official song in Youtube Music.
 
 
      d. [Removal] 1 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a Standard Recording LP, Standard recording EP, or as a Single, and the song and artist pairing is connected to sufficient data in Youtube Music, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
 
-     e. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 14 remaining rows in the sequence.
+     e. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 20 remaining rows in the sequence.
