@@ -19,7 +19,7 @@ output_csv_path = output_directory/output_csv
 df = pd.read_csv(input_csv_path)
 
 # Sample 85 rows from the DataFrame and set a random seed for reproducibility
-sampled_df = df.sample(n=85, random_state=50)
+sampled_df = df.sample(n=85, random_state=75)
 
 # Store the sampled data in output_csv
 sampled_df.to_csv(output_csv_path, na_rep="NA", index=False)
