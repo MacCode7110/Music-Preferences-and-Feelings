@@ -6,9 +6,9 @@ Web Developer and Data Researcher: Matthew McAlarney
 
 ## Data Collection & Management Summary
 
-The _Music Preference Survey_ survey was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total of 275 survey responses from full-time employees were collected and downloaded to `music_preference_survey_data_master_raw.csv`.
+The _Music Preferences And Feelings Survey_ was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total of 275 survey responses from full-time employees were collected and downloaded to `music_preferences_and_feelings_survey_data_master_raw.csv`.
 
-As music_preference_survey_data_master_raw is a small dataset and contains open-response survey data that represents human thought and writing, certain steps are manually executed to systematically remove and correct song and artist information using human evaluation and decision. Python programs are executed to build `music_preference_survey_data_master_cleaned_v1`, `music_preference_survey_data_master_cleaned_v2`, `music_preference_survey_data_master_cleaned_v3`, `music_preference_survey_data_master_cleaned_v4`, `music_preference_survey_data_master_cleaned_v5`, and `music_preference_survey_data_master_cleaned_v6`.
+As music_preference_survey_data_master_raw is a small dataset and contains open-response survey data that represents human thought and writing, certain steps are manually executed to systematically remove and correct song and artist information using human evaluation and decision. Python programs are executed to build `music_preferences_and_feelings_survey_data_master_cleaned_v1`, `music_preferences_and_feelings_survey_data_master_cleaned_v2`, `music_preferences_and_feelings_survey_data_master_cleaned_v3`, `music_preferences_and_feelings_survey_data_master_cleaned_v4`, `music_preferences_and_feelings_survey_data_master_cleaned_v5`, and `music_preferences_and_feelings_survey_data_master_cleaned_v6`.
 
 ## Music Release Context
 
@@ -106,7 +106,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 ## [2026-6-29 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preference_survey_data_master_raw.csv` -> `music_preference_survey_data_master_cleaned_v1.csv`
+- **Target File:** `music_preferences_and_feelings_survey_data_master_raw.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v1.csv`
 - **Data Shape Change:** 277 rows (2 header rows + 275 data rows) * 19 columns -> 276 (1 header row + 275 data rows) rows * 3 columns
 - **Purpose:** [Initial Quality Sweep - Manual Context Review, Establish Structural Baseline]
 - **Initial Raw Submissions:** 275 total survey responses
@@ -124,7 +124,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 ## [2026-6-30 - V2] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preference_survey_data_master_cleaned_v1.csv` -> `music_preference_survey_data_master_cleaned_v2.csv`
+- **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v1.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v2.csv`
 - **Data Shape Change:** 276 (1 header row + 275 data rows) rows * 3 columns -> 86 (1 header row + 85 data rows) rows * 3 columns
 - **Purpose:** [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Valid Dataset]
 - **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a Simple Random Sampling method was applied. Using the `simple_random_sampling.py` Python program with a constant random seed (random_state=50) to enforce reproducibility, 85 unique survey responses were randomly selected from the 275 data rows following the *Initial Quality Sweep* in V1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
@@ -138,7 +138,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 ## [2026-6-30 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preference_survey_data_master_cleaned_v2.csv` -> `music_preference_survey_data_master_cleaned_v3.csv`
+- **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v2.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v3.csv`
 - **Data Shape Change:** 86 (1 header row + 85 data rows) rows * 3 columns -> _ rows * 3 columns
 - **Purpose:** [Complete Quality Sweep - Manual Context Review, Remove Invalid Data and Systematically Correct Information]
 - **Statistical Acknowledgement**: While the 85 data rows sampled during the *Dataset Truncation (Simple Random Sampling)* in V2 establishes a 95% confidence level and margin of error less than 9% for the full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to _. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.

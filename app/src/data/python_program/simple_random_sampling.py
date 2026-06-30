@@ -5,8 +5,8 @@ import pandas as pd
 program_dir = Path(__file__).parent
 
 # Declare the input and output CSV file paths
-input_csv = "../csv_file/music_preference_survey_data_master_cleaned_v1.csv"
-output_csv = "../csv_file/music_preference_survey_data_master_cleaned_v2.csv"
+input_csv = "../csv_file/music_preferences_and_feelings_survey_data_master_cleaned_v1.csv"
+output_csv = "../csv_file/music_preferences_and_feelings_survey_data_master_cleaned_v2.csv"
 
 # Join the exact directory with input_csv
 input_csv_path = program_dir/input_csv
