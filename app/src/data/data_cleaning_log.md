@@ -4,7 +4,7 @@ Web Developer and Data Researcher: Matthew McAlarney
 
 ## Technologies: Python, Pandas, yt-dlp, FFmpeg, Essentia Audio Analysis, PCA (Principal Component Analysis)
 
-## Data Collection & Management Summary
+## Data Collection, Cleaning, and Processing Summary
 
 The _Music Preferences And Feelings Survey_ was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total of 275 survey responses from full-time employees were collected and downloaded to `music_preferences_and_feelings_survey_data_master_raw.csv`.
 
