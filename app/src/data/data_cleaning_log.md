@@ -8,7 +8,13 @@ Web Developer and Data Researcher: Matthew McAlarney
 
 The _Music Preferences And Feelings Survey_ was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total of 275 survey responses from full-time employees were collected and downloaded to `music_preferences_and_feelings_survey_data_master_raw.csv`.
 
-Since `music_preferences_and_feelings_survey_data_master_raw` is a small dataset and contains open-response survey data that represents human thought and writing, certain steps are manually executed to build `music_preferences_and_feelings_survey_data_master_cleaned_v1` and `music_preferences_and_feelings_survey_data_master_cleaned_v3`. Python programs are executed to build `music_preferences_and_feelings_survey_data_master_cleaned_v2`, `music_preferences_and_feelings_survey_data_master_cleaned_v4`, `music_preferences_and_feelings_survey_data_master_cleaned_v5`, and `music_preferences_and_feelings_survey_data_master_cleaned_v6`.
+Since `music_preferences_and_feelings_survey_data_master_raw` is a small dataset and contains open-response survey data that represents human thought and writing, steps are manually executed and executed through Python programs to build the succeeding CSV files:
+
+1. V1: [Initial Quality Sweep - Manual Context Review, Establish Structural Baseline] -> `music_preferences_and_feelings_survey_data_master_cleaned_v1`
+
+2. V2: [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Dataset] -> `music_preferences_and_feelings_survey_data_master_cleaned_v2`
+
+3. V3: [Complete Quality Sweep - Manual Context Review, Remove Invalid Data and Systematically Correct Information] -> `music_preferences_and_feelings_survey_data_master_cleaned_v3`
 
 ## Music Release Context
 
@@ -146,7 +152,7 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v1.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v2.csv`
 - **Data Shape Change:** 276 (1 header row + 275 data rows) rows * 3 columns -> 86 (1 header row + 85 data rows) rows * 3 columns
-- **Purpose:** [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Valid Dataset]
+- **Purpose:** [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Dataset]
 - **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a Simple Random Sampling method was applied. Using the `simple_random_sampling.py` Python program with a constant random seed (random_state=75) to enforce reproducibility, 85 unique survey responses were randomly selected from the 275 data rows following the *Initial Quality Sweep* in V1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
 - **Resulting Batch Size:** 85 data rows
 
