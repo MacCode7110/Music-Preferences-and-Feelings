@@ -22,71 +22,71 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
     
     a. Primary Release Formats:
         
-        I. Standard Recording LP (Long Play): A full-length presentation of songs, which usually consists of at least seven songs.
+        I. Standard Recording LP (Long Play): A standard recording LP release is a complete presentation of songs frequently consisting of at least seven songs.
         
-        II. Double LP (Double Long Play): A collection consisting of a pair of distinct volumes released within the same product. A Double LP is a standard recording LP.
+        II. Double LP (Double Long Play): A double LP release is a collection of two distinct volumes presented within one product. A double LP release is a standard recording LP release.
         
-        III. Standard Recording EP (Extended Play): Usually consists of four to six songs and is longer than a single.
+        III. Standard Recording EP (Extended Play): A standard recording EP release is a presentation of four to six songs.
         
-        IV. Single: Usually consists of one to three songs with a focus on a lead promotional song.
+        IV. Single: A single release is a presentation of one to three songs maintaining a focus on a lead promotional song.
         
-        V. Maxi-single: A specific collection frequently utilized in Dance, Electronic, and Hip Hop music that contains a lead single and an array of remix recordings, instrumental recordings, and B-sides.
+        V. Maxi-single: A maxi-single release is a collection containing a lead promotional single and an array of remix recordings, instrumental recordings, and B-sides.
     
-    b. Specialized Audio Editions and Re-release Formats:
+    b. Specialized Audio Edition Release and Re-release Formats:
         
-        I. Deluxe: An extended reissue of an existing standard recording LP containing bonus songs, demo songs, and/or b-side songs.
+        I. Deluxe: A deluxe release is an extended reissue of an existing standard recording LP containing bonus songs, demo songs, and B-sides.
         
-        II. Remastered: A song that is sonically optimized through contemporary technology, which usually encompasses increasing volume and modifying dynamic range.
+        II. Remastered: A remastered release contains songs that are sonically optimized through contemporary technology, which frequently encompasses increasing volume and modifying dynamic range.
         
-        III. Remixed: A song where the original stems are completely rearranged, rebalanced, or sonically altered.
+        III. Remixed: A remixed release contains songs that are completely rearranged, rebalanced, and sonically altered.
         
-        IV. Anniversary Edition: A collection of multiple discs combining remastered modifications of songs from a standard recording LP with an array of live recordings, unreleased studio gatherings, books, and collectibles.
+        IV. Anniversary Edition: An anniversary edition release is a collection of discs combining remastered songs from a standard recording LP with an array of live recordings, unreleased studio gatherings, books, and collectibles.
         
-        V. Audiophile Pressing: Collections defined by a specific manufacturing standard as opposed to song makeup.
+        V. Audiophile Pressing: An audiophile pressing release is a collection of songs measured through a specific manufacturing standard.
         
-        VI. Spatial Mix: A collection of songs released through a multi-channel structure, which may include channels such as Dolby Atmos and Sony 360 Reality Audio as examples.
+        VI. Spatial Mix: A spatial mix release is a collection of songs released through a multi-channel structure, which may include channels such as Dolby Atmos and Sony 360 Reality Audio.
     
-    c. Specialized Compilation Formats:
+    c. Specialized Compilation Release Formats:
         
-        I. Sampler: A compilation constructed to present a record label artist roster or an upcoming era of music.
+        I. Sampler: A sampler release is a compilation built to present record label rosters and upcoming eras of music.
         
-        II. Tribute: A compilation where multiple artists collaborate to record covers of songs written and performed by a single artist.
+        II. Tribute: A tribute release is a compilation featuring different artists collaborating to record covers of songs written and performed by one artist.
         
-        III. Split Release: A compilation containing tracks from two-three individual artists.
+        III. Split Release: A split release is a compilation containing songs from different artists.
         
-        IV. Audio Demonstration: Compilations created to evaluate the results of advanced audio equipment.
+        IV. Audio Demonstration: An audio demonstration release is a compilation created to evaluate the output of advanced audio equipment.
         
-        V. Historical Anthology: A historical compilation aiming to keep record of a specific geographic movement, musical movement, or timeframe frequently with supporting documentation.
+        V. Historical Anthology: A historical anthology release is a compilation aiming to keep record of geographic movements, musical movements, and timeframes with supporting documentation.
         
-        VI. Greatest Hits: A collection containing an artist's most successful songs since the beginning of their career.
+        VI. Greatest Hits: A greatest hits release is a collection of an artist's most successful songs.
         
-        VII. Mixtapes: A collection that contains songs frequently released by multiple artists melded into a continuous audio stream. Mixtapes commonly encompass Hip Hop, Electronic, and Urban music.
+        VII. Mixtapes: A mixtape release is a collection of songs released by different artists melded into a continuous audio stream.
     
-    d. Soundtrack Formats:
+    d. Soundtrack Release Formats:
         
-        I. Original Motion Picture Soundtrack (OST): A collection of songs presented throughout a media product. OSTs frequently contain sourced songs and songs specifically produced for the media product.
+        I. Original Motion Picture Soundtrack (OST): An OST release is a collection of songs presented throughout a particular media product. OSTs contain sourced songs and songs specifically produced for the particular media product.
         
-        II. Original Score: Consists only of background instrumental songs produced to synchronize with on-screen movement and build tone. At least one composer executes the production. The production frequently contains electronic, ambient, and orchestral elements.
+        II. Original Score: An original score release only contains instrumental songs produced to synchronize with on-screen movement and build tone.
         
-        III. Mixed Soundtrack: Hybrid collections that contain both sourced and/or specifically produced songs for the media product and a subset of instrumental songs.
+        III. Mixed Soundtrack: A mixed soundtrack release is a hybrid collection of sourced songs, songs specifically produced for a particular media product, and instrumental songs.
         
-        IV. Cast Recordings: Studio and/or live recordings of the actors performing the musical numbers featured in a distinct production.
+        IV. Cast Recordings: A cast recording release is a collection of songs capturing actors performing musical numbers presented in a particular production.
         
-        V. Inspirational Recordings: Recordings that accompany a media product and may contain songs that do not feature in the media product. The particular songs are inspired by the concept and/or characters of the media product. The recording frequently operates as a marketing effort to accompany the release of the media product. 
+        V. Inspirational Recordings: An inspirational recording release is a collection of songs that accompanies a particular media product. The songs are inspired by the concept and characters of the particular media product. The collection of songs frequently functions as a marketing effort to promote the release of the particular media product. 
     
-    e. Alternative Performance and Recording Formats:
+    e. Alternative Performance and Recording Release Formats:
         
-        I. Acoustic: Features simplified instrumentation, which encompasses acoustic equipment rather than electronic equipment.
+        I. Acoustic: An acoustic release is a collection of songs presenting simplified instrumentation utilizing acoustic equipment.
         
-        II. Unplugged: A particular subset of acoustic performance recorded live facing an audience.
+        II. Unplugged: An unplugged release is a type of acoustic performance recorded in a live setting with an audience.
         
-        III. Live: Audio captured directly from a performance, which consists of room acoustics, audience sounds, and real-time differences from recorded songs.
+        III. Live: A live release is a collection of audio captured from a performance, which contains room acoustics, audience sounds, and real-time differences from recorded songs.
         
-        IV. Cover: A distinct recording of a song originally written and performed by a different artist.
+        IV. Cover: A cover release is a recording of a song originally written, recorded, and performed by a different artist.
         
-        V. Demo Recording: A collection presenting raw songs with sparse production.
+        V. Demo Recording: A demo release is a collection of songs presenting sparse production.
         
-        VI. Mashup: A recording where at least two songs are sonically combined to construct a new song.
+        VI. Mashup: A mashup release is a recording consisting of multiple songs sonically combined to create a new song.
 
 2. A standard recording LP is the official version of a Long Play.
 
@@ -200,9 +200,11 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
     
 ## Song Selection Method
 
-1. To guarantee a fair procedure for sonic feature extraction throughout all songs, only official song releases through structurally correct standard recording LPs, standard recording EPs, and singles are obtained from YouTube Music. Structurally correct standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing, recording, and arrangement is purposeful and originally produced for a comprehensive listening experience. Conversely, release formats belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established selection method. Restricting the pipeline to consume song releases from structurally correct standard recording LPs, standard recording EPs, and singles creates a sonic control variable. The restriction equips the PCA Plot clustering to reflect differences in musical qualities with greater accuracy rather than differences in release formats and engineering output. The PCA Plot presents unique sonic representations of each selected song.
 
-2. 
+
+## Song Selection Significance
+
+1. To guarantee a fair procedure for sonic feature extraction throughout all songs, only official song releases through structurally correct standard recording LPs, standard recording EPs, and singles are obtained from YouTube Music. Structurally correct standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing, recording, and arrangement is purposeful and originally produced for a comprehensive listening experience. Conversely, release formats belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established selection method. Restricting the pipeline to consume song releases from structurally correct standard recording LPs, standard recording EPs, and singles creates a sonic control variable. The restriction equips the PCA Plot clustering to reflect differences in musical qualities with greater accuracy rather than differences in release formats and engineering output. The PCA Plot presents unique sonic representations of each selected song.
 
 ## Pipeline Limitations
 
