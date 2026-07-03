@@ -137,23 +137,23 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
     2. Insufficient data in YouTube Music achieves at least one of the succeeding findings:
 
-        I. The song was officially and originally released within a standard recording LP, and there is an official, structurally incorrect standard recording LP release containing the song that is in YouTube Music.
+        I. The song was officially and originally released within a standard recording LP, and there is at least one official, structurally incorrect standard recording LP release containing the song that is in YouTube Music.
         
-        II. The song was officially and originally released within a standard recording LP, and there is an official, structurally incorrect standard recording EP release containing the song that is in YouTube Music.
+        II. The song was officially and originally released within a standard recording LP, and there is at least one official, structurally incorrect standard recording EP release containing the song that is in YouTube Music.
 
-        III. The song was officially and originally released within a standard recording LP, and there is an official, structurally incorrect single release that is in YouTube Music.
+        III. The song was officially and originally released within a standard recording LP, and there is at least one official, structurally incorrect single release that is in YouTube Music.
 
-        IV. The song was officially and originally released within a standard recording EP, and there is an official, structurally incorrect standard recording EP release containing the song that is in YouTube Music.
+        IV. The song was officially and originally released within a standard recording EP, and there is at least one official, structurally incorrect standard recording EP release containing the song that is in YouTube Music.
         
-        V. The song was officially and originally released within a standard recording EP, and there is an official, structurally incorrect standard recording LP release containing the song that is in YouTube Music.
+        V. The song was officially and originally released within a standard recording EP, and there is at least one official, structurally incorrect standard recording LP release containing the song that is in YouTube Music.
 
-        VI. The song was officially and originally released within a standard recording EP, and there is an official, structurally incorrect single release containing the song that is in YouTube Music.
+        VI. The song was officially and originally released within a standard recording EP, and there is at least one official, structurally incorrect single release containing the song that is in YouTube Music.
 
-        VII. The song was officially and originally released within a single, and there is an official, structurally incorrect single release containing the song that is in YouTube Music.
+        VII. The song was officially and originally released within a single, and there is at least one official, structurally incorrect single release containing the song that is in YouTube Music.
         
-        VIII. The song was officially and originally released within a single, and there is an official, structurally incorrect standard recording EP release containing the song that is in YouTube Music.
+        VIII. The song was officially and originally released within a single, and there is at least one official, structurally incorrect standard recording EP release containing the song that is in YouTube Music.
 
-        IX. The song was officially and originally released within a single, and there is an official, structurally incorrect standard recording LP release containing the song that is in YouTube Music.
+        IX. The song was officially and originally released within a single, and there is at least one official, structurally incorrect standard recording LP release containing the song that is in YouTube Music.
     
 ## Song Identification Method
 
