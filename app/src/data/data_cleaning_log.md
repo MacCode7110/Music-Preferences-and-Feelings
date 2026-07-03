@@ -159,6 +159,8 @@ To guarantee a fair procedure for sonic feature extraction throughout all songs,
 
 5. When YouTube Music offers certain standard recording LPs, standard recording EPs, and singles containing songs that also have been altered for secondary initiatives, there is some probability that the audio streamed through this particular subset of standard recording LPs, standard recording EPs, and singles is sourced from altered modifications of the songs. The acquisition of songs from standard recording LPs, standard recording EPs, and singles in YouTube Music also creates a systematic production bias. Consequently, data clustering in the PCA Plot may partially group songs based on engineering output rather than similar musical qualities.
 
+6. When YouTube Music offers certain standard recording LPs, standard recording EPs, and singles, there is some probability that duplicates of these official releases are also offered. YouTube Music provides duplicates of standard recording LPs, standard recording EPs, and singles when the distributor resends the official release with updated information. There is also some probability that at least one of the duplicates is structurally incorrect and contains songs altered for secondary initiatives. Consequently, data clustering in the PCA Plot may partially group songs based on engineering output rather than similar musical qualities.
+
 ---
 
 ## [2026-6-29 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
