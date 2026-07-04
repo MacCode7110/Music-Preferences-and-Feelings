@@ -104,7 +104,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
     
     a. A song officially and originally released by the artist where the intention of the respondent is completely clear in the [song_name] and [artist_name] response columns.
     
-    b. A primary feeling that is one word, completely grammatically correct, completely reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
+    b. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
 
 2. Correct song, artist, and primary feeling writing for formatting accuracy when there is a completely clear formatting issue:
     
@@ -122,7 +122,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
         
         II. Grammar: The primary feeling writing is not completely grammatically correct.
         
-        III. Natural Speech: The primary feeling writing does not completely reflect natural speech.
+        III. Natural Speech: The primary feeling writing does not reasonably reflect natural speech.
         
         IV. Clarity: The primary feeling writing communicates a meaning with reasonable clarity, and there is sufficient written context to substitute with one word that communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
     
@@ -268,11 +268,11 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
      a. [Removal] _ row deleted because the song, artist, and primary feeling contained exclusively NA values.
 
-     b. [Removal] _ rows deleted because although the song, artist and primary feeling did not contain exclusively NA values, the song, artist, and primary feeling lacked sufficient written context to achieve both of the succeeding measures as presented in *Data Correction Measures*:
+     b. [Removal] 1 rows deleted because although the song, artist and primary feeling did not contain exclusively NA values, the song, artist, and primary feeling lacked sufficient written context to achieve both of the succeeding measures as presented in *Data Correction Measures*:
 
         I. A song officially and originally released by the artist where the intention of the respondent is completely clear in the [song_name] and [artist_name] response columns.
 
-        II. A primary feeling that is one word, completely grammatically correct, completely reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
+        II. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
 
      c. [Removal] _ rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song, the artist did not officially and originally release the song through any of the succeeding formats:
 
@@ -286,8 +286,8 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
      e. [Removal] _ row deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a standard recording LP, standard recording EP, or as a single, and the song and artist pairing is connected to sufficient data in YouTube Music as presented in *Data Research Questions* and *Data Evaluation Measures*, the song and artist pairing is a duplication of a song and artist pairing corrected prior in the *Complete Quality Sweep*.
 
-     f. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for _ remaining rows in the sequence.
+     f. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 4 remaining rows in the sequence.
 
-     g. [Addition] Added the YouTube Music song URL in the [youtube_music_url] column for _ remaining rows in the sequence.
+     g. [Addition] Added the YouTube Music song URL in the [youtube_music_url] column for 4 remaining rows in the sequence.
 
 ---
