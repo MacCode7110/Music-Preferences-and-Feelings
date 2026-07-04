@@ -274,7 +274,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
         II. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
 
-     c. [Removal] 2 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song, the artist did not officially and originally release the song through any of the succeeding formats:
+     c. [Removal] 3 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song, the artist did not officially and originally release the song through any of the succeeding formats:
 
         I. Standard Recording LP
         
