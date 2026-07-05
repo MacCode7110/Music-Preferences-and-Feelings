@@ -257,9 +257,9 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-3 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v2.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v3.csv`
-- **Data Shape Change:** 86 (1 header row + 85 data rows) rows * 3 columns -> _ rows * 4 columns
+- **Data Shape Change:** 86 (1 header row + 85 data rows) rows * 3 columns -> 46 (1 header row + 45 data rows) rows * 4 columns
 - **Purpose:** [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information]
-- **Statistical Acknowledgement**: While the 85 data rows sampled during the *Dataset Truncation (Simple Random Sampling)* in V2 establishes a 95% confidence level and margin of error less than 9% for the full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to _. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.
+- **Statistical Acknowledgement**: While the 85 data rows sampled during the *Dataset Truncation (Simple Random Sampling)* in V2 establishes a 95% confidence level and margin of error less than 9% for the full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to 45. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.
 
 ### Steps Executed:
 
@@ -286,8 +286,8 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
      e. [Removal] 1 row deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a standard recording LP, standard recording EP, or as a single, and the song and artist grouping is connected to sufficient data in YouTube Music as presented in *Data Research Questions* and *Data Evaluation Measures*, the song and artist grouping is a duplication of a song and artist grouping corrected prior in the *Complete Quality Sweep*.
 
-     f. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 44 remaining rows in the sequence.
+     f. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 45 remaining rows in the sequence.
 
-     g. [Addition] Added the YouTube Music song URL in the [youtube_music_url] column for 44 remaining rows in the sequence.
+     g. [Addition] Added the YouTube Music song URL in the [youtube_music_url] column for 45 remaining rows in the sequence.
 
 ---
