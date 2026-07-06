@@ -311,7 +311,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 - **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v3.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v4.csv`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 4 columns -> 46 (1 header row + 45 data rows) rows * 5 columns
 - **Purpose:** [Primary Feeling Mapping - Python Program Execution, Map each corrected primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework]
-- **Methodology:** To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, executing `primary_feeling_quadrant_mapping.py` maps each corrected primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework. Valence maps to the x-axis. Arousal maps to the y-axis.Through examining the coordinates of Valence and Arousal, emotional qualities are categorically represented within the spatial geometry of the PCA Plot.
+- **Methodology:** To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, executing `primary_feeling_quadrant_mapping.py` maps each corrected primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework as described in *Applying Russell's Core Affect Framework*. Valence maps to the x-axis. Arousal maps to the y-axis.Through examining the coordinates of Valence and Arousal, emotional qualities are categorically represented within the spatial geometry of the PCA Plot.
 
 ### Steps Executed:
 
