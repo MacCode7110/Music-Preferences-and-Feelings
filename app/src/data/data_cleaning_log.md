@@ -16,6 +16,8 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 3. V3: [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information] -> `music_preferences_and_feelings_survey_data_master_cleaned_v3.csv`
 
+4. V4: [] -> `music_preferences_and_feelings_survey_data_master_cleaned_v4.csv`
+
 ## Song Release Context
 
 1. Songs are released to different audiences through the succeeding format groups:
@@ -291,3 +293,11 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
      g. [Addition] Added the YouTube Music song URL in the [youtube_music_url] column for 45 remaining rows in the sequence.
 
 ---
+
+## [2026-7-5 - V4] - [Matthew McAlarney - Web Developer, Data Researcher]
+
+- **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v3.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v4.csv`
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 4 columns -> _ (1 header row + _ data rows) rows * _ columns
+- **Purpose:** [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information]
+
+### Steps Executed:
