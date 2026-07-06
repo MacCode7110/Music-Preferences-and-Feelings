@@ -2,7 +2,7 @@
 
 Web Developer and Data Researcher: Matthew McAlarney
 
-## Technologies: Python, Pandas, yt-dlp, FFmpeg, Essentia Audio Analysis, PCA (Principal Component Analysis)
+## Technologies: Python, Pandas, yt-dlp, FFmpeg, Essentia Audio Analysis, PCA (Principal Component Analysis), Russell's Core Affect Framework
 
 ## Data Collection, Cleaning, and Processing Summary
 
