@@ -10,7 +10,6 @@ def map_primary_feeling_to_quadrant(primary_feeling):
         "Happy": "Quadrant 1",
         "Upbeat": "Quadrant 1",
         "Free-spirited": "Quadrant 1",
-        "Joyful": "Quadrant 1",
         "Empowered": "Quadrant 1",
         "Excited": "Quadrant 1",
         "Awesome": "Quadrant 1",
