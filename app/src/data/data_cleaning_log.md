@@ -234,6 +234,10 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
     d. Quadrant 4 (Bottom-Right): Low Arousal + Positive Valence
 
+## Applying yt-dlp
+
+1. To build a standardized audio collection for sonic feature extraction from Essentia, executing yt-dlp accesses the YouTube Music song URLs in the [youtube_music_url] column to obtain the highest quality audio streams offered from YouTube Music. yt-dlp utilizes the FFmpeg processing framework to transcode compressed audio streams into uncompressed WAV files.
+
 ---
 
 ## [2026-7-7 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
@@ -336,7 +340,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 - **Target File:** `music_preferences_and_feelings_survey_data_master_cleaned_v4.csv` -> `music_preferences_and_feelings_survey_data_master_cleaned_v5.csv`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 5 columns -> 46 (1 header row + 45 data rows) rows * 7 columns
 - **Purpose:** [Song Downloading, WAV Conversion - Python Program Execution, Download each song in the [song_name] column through the corresponding URL in the [youtube_music_url] column and convert to WAV]
-- **Methodology:** To build a standardized audio repository for sonic feature extraction from Essentia, executing `wav_file_creation.py` utilizes yt-dlp to loop through the 45 remaining data rows and obtain compressed audio streams through the verified song URLs in the [youtube_music_url] column. To enforce consistent file input for sonic feature extraction from Essentia, yt-dlp dictates the underlying FFmpeg framework to post-process and transcode the compressed audio streams into uncompressed WAV files.
+- **Methodology:** To build a standardized audio collection for sonic feature extraction from Essentia, executing `wav_file_creation.py` utilizes yt-dlp to loop through the 45 remaining data rows and obtain compressed audio streams through the verified song URLs in the [youtube_music_url] column. To enforce consistent file input for sonic feature extraction from Essentia, yt-dlp dictates the underlying FFmpeg processing framework to post-process and transcode the compressed audio streams into uncompressed WAV files.
 
 ### Steps Executed:
 
