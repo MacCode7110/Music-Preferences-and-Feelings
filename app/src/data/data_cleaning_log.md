@@ -360,13 +360,18 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V6] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_song_download.csv` -> `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`
-- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 7 columns -> 46 (1 header row + 45 data rows) rows * _ columns
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 7 columns -> 46 (1 header row + 45 data rows) rows * 19 columns
 - **Purpose:** [Essentia Sonic Feature Extraction - Python Program Execution, Calculate and record 12 sonic scalar values for each of the 45 remaining data rows through accessing the WAV file referenced in the [wav_filename] column]
-- **Methodology:** To 
+- **Methodology:** To build a collection of sonic features extracted from Essentia, executing `sonic_feature_extraction.py` obtains 12 native, mathematical parameters. During the process, low-level data transformation reduces thousands of frame-by-frame time-series measurements into scalar averages (`.mean`). The sonic features needed to create a consistent data matrix are recorded to `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`.
 
 ### Steps Executed:
 
 1. **[Addition]** Appended 12 columns to record sonic features extracted from Essentia:
-    a. 
-    b. 
-2. **[Sonic Feature Extraction]** Executed `sonic_feature_extraction.py` to 
+    a. **Rhythm:** `bpm`, `danceability`, `onset_rate`
+    b. **Dynamics:** `average_loudness`, `dynamic_complexity`
+    c. **Spectral & Tonal (Mood Proxies):** `spectral_energy`, `chords_changes_rate`, `pitch_salience`, `spectral_complexity`
+    d. **Texture & Timbre:** `spectral_centroid`, `barkbands_flatness_db`, `zerocrossingrate`
+2. **[Sonic Feature Extraction]** Executed `sonic_feature_extraction.py` to loop through the 45 remaining songs and process the 12 native, mathematical parameters. `sonic_feature_extraction.py` verified the `song_download_status` and loaded uncompressed WAV files from the `wav_downloads` directory. `sonic_feature_extraction.py` also managed file system exceptions by recording NA values for failed checks.
+
+---
+
