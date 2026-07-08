@@ -28,7 +28,7 @@ def standardize_sonic_features(input_csv_path, output_csv_path):
     df_final = pd.concat([df_valid, df_scaled_features], axis=1)
     
     df_final.to_csv(output_csv_path, index=False)
-    print(f"Successfully scaled sonicfeatures. Saved standardized matrix to {output_csv_path}")
+    print(f"Successfully scaled sonic features. Saved standardized matrix to {output_csv_path}")
 
 program_dir = Path(__file__).parent
 csv_directory = program_dir.parent / "csv_files"
