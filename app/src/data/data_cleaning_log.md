@@ -248,9 +248,13 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## Applying Essentia and Standardization
 
-1. To build a multi-dimensional matrix of sonic features for the PCA Plot, executing Essentia's MusicExtractor program processes each uncompressed WAV file. The extractor obtains 12 native, low-level mathematical scalars spanning four structural bins (Rhythm, Dynamics, Spectral/Tonal, and Texture/Timbre). The extractor also computes scalar averages (`.mean`) for thousands of frame-by-frame time-series measurements.
+1. To build a multi-dimensional matrix of sonic features for the PCA Plot, executing Essentia's `MusicExtractor` program processes each uncompressed WAV file. The extractor obtains 12 native, low-level mathematical scalars spanning four structural bins (Rhythm, Dynamics, Spectral/Tonal, and Texture/Timbre). The extractor also computes scalar averages (`.mean`) for thousands of frame-by-frame time-series measurements.
 
-2. To prepare the sonic features for accurate geometric representation in the PCA Plot, executing a sklearn's StandardScalar program applies z-score normalization to each sonic scalar value. This standardization operation unifies the different units of measurement. For instance, high-magnitude average loudness and low-magnitude spectral energy are converted to assume a uniform mean of 0 and a standard deviation of 1. As a result, large numeric values do not unfairly conquer geometric relationships in the PCA Plot.
+2. To prepare the sonic features for accurate geometric representation in the PCA Plot, executing a sklearn's `StandardScalar` program applies z-score normalization to each sonic scalar value. This standardization operation unifies the different units of measurement. For instance, high-magnitude average loudness and low-magnitude spectral energy are converted to assume a uniform mean of 0 and a standard deviation of 1. As a result, large numeric values do not unfairly conquer geometric relationships in the PCA Plot.
+
+## Applying PCA Dimensionality Reduction
+
+1. To build a coordinate matrix representing the sonic features extracted from Essentia, executing sklearn's `PCA` `fit_transform` method fits the 12 standardized sonic features to a 2-component PCA model. For each corrected song, components `pca_x` and `pca_y` correspond to geographic positions on the PCA Plot. Songs with highly similar underlying mathematical characteristics closely aggregate on the PCA Plot.
 
 ---
 
@@ -407,7 +411,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 - **Target File:**`music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` -> `pca_matrix.json`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 31 columns -> JSON Array containing 45 Objects * 33 Key-Value Properties
 - **Purpose:** [PCA Dimensionality Reduction - Python Program Execution, Compress 12 multi-dimensional standardized sonic features into 2 static spatial dimensions (`pca_x` and `pca_y`) for PCA Plot rendering]
-- **Methodology:** To map multi-dimensional standardized sonic features onto a 2D scatter plot area, executing `calculate_pca_coordinates.py` applies a linear dimensionality reduction. The reduction projects the 12 standardized sonic features reocrded in `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` onto an orthogonal subspace. Songs with highly similar underlying mathematical characteristics closely aggregate on the PCA Plot.
+- **Methodology:** To map multi-dimensional standardized sonic features onto a 2D scatter plot area, executing `calculate_pca_coordinates.py` applies a linear dimensionality reduction. The reduction projects the 12 standardized sonic features recorded in `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` onto an orthogonal subspace. Songs with highly similar underlying mathematical characteristics closely aggregate on the PCA Plot.
 
 ### Steps Executed:
 
