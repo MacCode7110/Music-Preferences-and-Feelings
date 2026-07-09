@@ -28,123 +28,123 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## Song Release Context
 
-1. Songs are released to different audiences through the succeeding format groups:
-    
-    a. Primary Release Formats:
-        
-        I. Standard Recording LP (Long Play): A standard recording LP release is a complete presentation of songs frequently consisting of at least seven songs.
-        
-        II. Double LP (Double Long Play): A double LP release is a collection of two distinct volumes presented within one product. A double LP release is a standard recording LP release.
-        
-        III. Standard Recording EP (Extended Play): A standard recording EP release is a presentation of four to six songs.
-        
-        IV. Single: A single release is a presentation of one to three songs maintaining a focus on a lead promotional song.
-        
-        V. Maxi-single: A maxi-single release is a collection containing a lead promotional single and an array of remix recordings, instrumental recordings, and B-sides.
-    
-    b. Specialized Audio Edition Release and Re-release Formats:
-        
-        I. Deluxe: A deluxe release is an extended reissue of an existing standard recording LP containing bonus songs, demo songs, and B-sides.
-        
-        II. Remastered: A remastered release contains songs that are sonically optimized through contemporary technology, which frequently encompasses increasing volume and modifying dynamic range.
-        
-        III. Remixed: A remixed release contains songs that are completely rearranged, rebalanced, and sonically altered.
-        
-        IV. Anniversary Edition: An anniversary edition release is a collection of discs combining remastered songs from a standard recording LP with an array of live recordings, unreleased studio gatherings, books, and collectibles.
-        
-        V. Audiophile Pressing: An audiophile pressing release is a collection of songs measured through a specific manufacturing standard.
-        
-        VI. Spatial Mix: A spatial mix release is a collection of songs released through a multi-channel structure, which may include channels such as Dolby Atmos and Sony 360 Reality Audio.
-    
-    c. Specialized Compilation Release Formats:
-        
-        I. Sampler: A sampler release is a compilation built to present record label rosters and upcoming eras of music.
-        
-        II. Tribute: A tribute release is a compilation featuring different artists collaborating to record covers of songs written and performed by one artist.
-        
-        III. Split Release: A split release is a compilation containing songs from different artists.
-        
-        IV. Audio Demonstration: An audio demonstration release is a compilation created to evaluate the output of advanced audio equipment.
-        
-        V. Historical Anthology: A historical anthology release is a compilation aiming to keep record of geographic movements, musical movements, and timeframes with supporting documentation.
-        
-        VI. Greatest Hits: A greatest hits release is a collection of an artist's most successful songs.
-        
-        VII. Mixtapes: A mixtape release is a collection of songs released by different artists melded into a continuous audio stream.
-    
-    d. Soundtrack Release Formats:
-        
-        I. Original Motion Picture Soundtrack (OST): An OST release is a collection of songs presented throughout a particular media product. OSTs contain sourced songs and songs specifically produced for the particular media product.
-        
-        II. Original Score: An original score release only contains instrumental songs produced to synchronize with on-screen movement and build tone.
-        
-        III. Mixed Soundtrack: A mixed soundtrack release is a hybrid collection of sourced songs, songs specifically produced for a particular media product, and instrumental songs.
-        
-        IV. Cast Recordings: A cast recording release is a collection of songs capturing actors performing musical numbers presented in a particular production.
-        
-        V. Inspirational Recordings: An inspirational recording release is a collection of songs that accompanies a particular media product. The songs are inspired by the concept and characters of the particular media product. The collection of songs frequently functions as a marketing effort to promote the release of the particular media product. 
-    
-    e. Alternative Performance and Recording Release Formats:
-        
-        I. Acoustic: An acoustic release is a collection of songs presenting simplified instrumentation utilizing acoustic equipment.
-        
-        II. Unplugged: An unplugged release is a type of acoustic performance recorded in a live setting with an audience.
-        
-        III. Live: A live release is a collection of audio captured from a performance, which contains room acoustics, audience sounds, and real-time differences from recorded songs.
-        
-        IV. Cover: A cover release is a recording of a song originally written, recorded, and performed by a different artist.
-        
-        V. Demo Recording: A demo release is a collection of songs presenting sparse production.
-        
-        VI. Mashup: A mashup release is a recording presenting multiple songs sonically combined to create a new song.
+1.   Songs are released to different audiences through the succeeding format groups:
 
-2. A standard recording LP release is the official version of a Long Play.
+     a. Primary Release Formats:
 
-3. A standard recording EP release is the official version of an Extended Play.
+         I. Standard Recording LP (Long Play): A standard recording LP release is a complete presentation of songs frequently consisting of at least seven songs.
 
-4. An official release of a song is an Audio Object in YouTube Music, which is different from a Music Video Object in YouTube Music. A song is officially released through any one of the release format groups detailed in Item 1. A song is not officially released as a music video.
+         II. Double LP (Double Long Play): A double LP release is a collection of two distinct volumes presented within one product. A double LP release is a standard recording LP release.
 
-5. There is some probability that the release of a song in one particular format contains different engineering output and musical qualities compared to the release of a song in a different particular format.
+         III. Standard Recording EP (Extended Play): A standard recording EP release is a presentation of four to six songs.
 
-6. An original release of a song is the release format where the song is first available. A song is first available through one of the release format groups detailed in Item 1.
+         IV. Single: A single release is a presentation of one to three songs maintaining a focus on a lead promotional song.
+
+         V. Maxi-single: A maxi-single release is a collection containing a lead promotional single and an array of remix recordings, instrumental recordings, and B-sides.
+
+     b. Specialized Audio Edition Release and Re-release Formats:
+
+         I. Deluxe: A deluxe release is an extended reissue of an existing standard recording LP containing bonus songs, demo songs, and B-sides.
+
+         II. Remastered: A remastered release contains songs that are sonically optimized through contemporary technology, which frequently encompasses increasing volume and modifying dynamic range.
+
+         III. Remixed: A remixed release contains songs that are completely rearranged, rebalanced, and sonically altered.
+
+         IV. Anniversary Edition: An anniversary edition release is a collection of discs combining remastered songs from a standard recording LP with an array of live recordings, unreleased studio gatherings, books, and collectibles.
+
+         V. Audiophile Pressing: An audiophile pressing release is a collection of songs measured through a specific manufacturing standard.
+
+         VI. Spatial Mix: A spatial mix release is a collection of songs released through a multi-channel structure, which may include channels such as Dolby Atmos and Sony 360 Reality Audio.
+
+     c. Specialized Compilation Release Formats:
+
+         I. Sampler: A sampler release is a compilation built to present record label rosters and upcoming eras of music.
+
+         II. Tribute: A tribute release is a compilation featuring different artists collaborating to record covers of songs written and performed by one artist.
+
+         III. Split Release: A split release is a compilation containing songs from different artists.
+
+         IV. Audio Demonstration: An audio demonstration release is a compilation created to evaluate the output of advanced audio equipment.
+
+         V. Historical Anthology: A historical anthology release is a compilation aiming to keep record of geographic movements, musical movements, and timeframes with supporting documentation.
+
+         VI. Greatest Hits: A greatest hits release is a collection of an artist's most successful songs.
+
+         VII. Mixtapes: A mixtape release is a collection of songs released by different artists melded into a continuous audio stream.
+
+     d. Soundtrack Release Formats:
+
+         I. Original Motion Picture Soundtrack (OST): An OST release is a collection of songs presented throughout a particular media product. OSTs contain sourced songs and songs specifically produced for the particular media product.
+
+         II. Original Score: An original score release only contains instrumental songs produced to synchronize with on-screen movement and build tone.
+
+         III. Mixed Soundtrack: A mixed soundtrack release is a hybrid collection of sourced songs, songs specifically produced for a particular media product, and instrumental songs.
+
+         IV. Cast Recordings: A cast recording release is a collection of songs capturing actors performing musical numbers presented in a particular production.
+
+         V. Inspirational Recordings: An inspirational recording release is a collection of songs that accompanies a particular media product. The songs are inspired by the concept and characters of the particular media product. The collection of songs frequently functions as a marketing effort to promote the release of the particular media product.
+
+     e. Alternative Performance and Recording Release Formats:
+
+         I. Acoustic: An acoustic release is a collection of songs presenting simplified instrumentation utilizing acoustic equipment.
+
+         II. Unplugged: An unplugged release is a type of acoustic performance recorded in a live setting with an audience.
+
+         III. Live: A live release is a collection of audio captured from a performance, which contains room acoustics, audience sounds, and real-time differences from recorded songs.
+
+         IV. Cover: A cover release is a recording of a song originally written, recorded, and performed by a different artist.
+
+         V. Demo Recording: A demo release is a collection of songs presenting sparse production.
+
+         VI. Mashup: A mashup release is a recording presenting multiple songs sonically combined to create a new song.
+
+2.   A standard recording LP release is the official version of a Long Play.
+
+3.   A standard recording EP release is the official version of an Extended Play.
+
+4.   An official release of a song is an Audio Object in YouTube Music, which is different from a Music Video Object in YouTube Music. A song is officially released through any one of the release format groups detailed in Item 1. A song is not officially released as a music video.
+
+5.   There is some probability that the release of a song in one particular format contains different engineering output and musical qualities compared to the release of a song in a different particular format.
+
+6.   An original release of a song is the release format where the song is first available. A song is first available through one of the release format groups detailed in Item 1.
 
 ## Data Correction Measures
 
-1. Execute Steps 2-4 to achieve all of the succeeding measures:
-    
-    a. A song officially and originally released by the artist where the intention of the respondent is completely clear in the [song_name] and [artist_name] response columns.
-    
-    b. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
+1.   Execute Steps 2-4 to achieve all of the succeeding measures:
 
-2. Correct song, artist, and primary feeling writing for formatting accuracy when there is a completely clear formatting issue:
-    
-    a. Example: Changing a song with a leading space, " 7 Words" to a song without a leading space, "7 Words".
+     a. A song officially and originally released by the artist where the intention of the respondent is completely clear in the [song_name] and [artist_name] response columns.
 
-3. Correct song, artist, and primary feeling writing for logical accuracy when there is a completely clear logical issue:
-    
-    a. Example: Changing an artist from “DeFTONes” to “Deftones”.
+     b. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
 
-4. Correct primary feeling writing for concision, grammar, natural speech, and clarity -> 
-    
-    a. When at least one of the succeeding conditions is satisfied:
-        
-        I. Concision: The word count of the primary feeling writing exceeds one word.
-        
-        II. Grammar: The primary feeling writing is not completely grammatically correct.
-        
-        III. Natural Speech: The primary feeling writing does not reasonably reflect natural speech.
-        
-        IV. Clarity: The primary feeling writing communicates a meaning with reasonable clarity, and there is sufficient written context to substitute with one word that communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
-    
-    b. Examples: 
-        
-        I. Concision Correction: Changing a primary feeling from "I feel like a surge of electricity bouncing through the house." to "Energized".
-        
-        II. Grammar Correction: Changing a primary feeling from "Saddening" to "Sad".
-        
-        III. Natural Speech Correction: Changing a primary feeling from "Happiness" to "Happy". 
-        
-        IV. Concision and Clarity Correction: Changing a primary feeling from "I feel happy, sad, and angry simultaneously." to "Ambivalent".
+2.   Correct song, artist, and primary feeling writing for formatting accuracy when there is a completely clear formatting issue:
+
+     a. Example: Changing a song with a leading space, " 7 Words" to a song without a leading space, "7 Words".
+
+3.   Correct song, artist, and primary feeling writing for logical accuracy when there is a completely clear logical issue:
+
+     a. Example: Changing an artist from “DeFTONes” to “Deftones”.
+
+4.   Correct primary feeling writing for concision, grammar, natural speech, and clarity ->
+
+     a. When at least one of the succeeding conditions is satisfied:
+
+         I. Concision: The word count of the primary feeling writing exceeds one word.
+
+         II. Grammar: The primary feeling writing is not completely grammatically correct.
+
+         III. Natural Speech: The primary feeling writing does not reasonably reflect natural speech.
+
+         IV. Clarity: The primary feeling writing communicates a meaning with reasonable clarity, and there is sufficient written context to substitute with one word that communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
+
+     b. Examples:
+
+         I. Concision Correction: Changing a primary feeling from "I feel like a surge of electricity bouncing through the house." to "Energized".
+
+         II. Grammar Correction: Changing a primary feeling from "Saddening" to "Sad".
+
+         III. Natural Speech Correction: Changing a primary feeling from "Happiness" to "Happy".
+
+         IV. Concision and Clarity Correction: Changing a primary feeling from "I feel happy, sad, and angry simultaneously." to "Ambivalent".
 
 ## Data Research Questions
 
@@ -153,65 +153,65 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 2. Is the current release format (rendered in YouTube Music) the official and original release of the song?
 
 3. For Questions 4-6, reference the succeeding definitions:
-    
-    a. A particular release that maintains the original count, list, and ordering of songs for the release format is structurally correct.
 
-    b. A particular release that does not maintain the original count, list, and ordering of songs for the release format is structurally incorrect.
+     a. A particular release that maintains the original count, list, and ordering of songs for the release format is structurally correct.
+
+     b. A particular release that does not maintain the original count, list, and ordering of songs for the release format is structurally incorrect.
 
 4. If the song was officially and originally released through a standard recording LP, then ->
-    
-    a. Is the standard recording LP containing the official song accessible in YouTube Music? If so, is the standard recording LP containing the official song structurally correct?
 
-    b. If the song was also officially released within a standard recording EP, is the standard recording EP containing the official song accessible in YouTube Music? If so, is the standard recording EP containing the official song structurally correct?
-    
-    c. If the song was also officially released within a single, is the single accessible in YouTube Music? If so, is the single containing the official song structurally correct?
+     a. Is the standard recording LP containing the official song accessible in YouTube Music? If so, is the standard recording LP containing the official song structurally correct?
+
+     b. If the song was also officially released within a standard recording EP, is the standard recording EP containing the official song accessible in YouTube Music? If so, is the standard recording EP containing the official song structurally correct?
+
+     c. If the song was also officially released within a single, is the single accessible in YouTube Music? If so, is the single containing the official song structurally correct?
 
 5. If the song was officially and originally released through a standard recording EP, then ->
-    
-    a. Is the standard recording EP containing the official song accessible in YouTube Music? If so, is the standard recording EP containing the official song structurally correct?
-    
-    b. If the song was also officially released within a standard recording LP, is the standard recording LP containing the official song accessible in YouTube Music? If so, is the standard recording LP containing the official song structurally correct?
-    
-    c. If the song was also officially released within a single, is the single accessible in YouTube Music? If so, is the single containing the official song structurally correct?
+
+     a. Is the standard recording EP containing the official song accessible in YouTube Music? If so, is the standard recording EP containing the official song structurally correct?
+
+     b. If the song was also officially released within a standard recording LP, is the standard recording LP containing the official song accessible in YouTube Music? If so, is the standard recording LP containing the official song structurally correct?
+
+     c. If the song was also officially released within a single, is the single accessible in YouTube Music? If so, is the single containing the official song structurally correct?
 
 6. If the song was officially and originally released through a single, then ->
-    
-    a. Is the single accessible in YouTube Music? If so, is the single containing the official song structurally correct?
-    
-    b. If the song was also officially released within a standard recording EP, is the standard recording EP containing the official song accessible in YouTube Music? If so, is the standard recording EP containing the official song structurally correct?
-    
-    c. If the song was also officially released within a standard recording LP, is the standard recording LP containing the official song accessible in YouTube Music? If so, is the standard recording LP containing the official song structurally correct?
+
+     a. Is the single accessible in YouTube Music? If so, is the single containing the official song structurally correct?
+
+     b. If the song was also officially released within a standard recording EP, is the standard recording EP containing the official song accessible in YouTube Music? If so, is the standard recording EP containing the official song structurally correct?
+
+     c. If the song was also officially released within a standard recording LP, is the standard recording LP containing the official song accessible in YouTube Music? If so, is the standard recording LP containing the official song structurally correct?
 
 ## Data Evaluation Measures
 
 1. Sufficient data in YouTube Music achieves at least one of the succeeding findings:
 
-    a. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is accessible in YouTube Music. 
+     a. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is accessible in YouTube Music.
 
-    b. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording EP, and the official, structurally correct standard recording EP containing the official song is accessible in YouTube Music.
+     b. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording EP, and the official, structurally correct standard recording EP containing the official song is accessible in YouTube Music.
 
-    c. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is not accessible in YouTube Music. The song was also officially released as a single, and the official, structurally correct single containing the official song is accessible in YouTube Music.
-        
-    d. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is accessible in YouTube Music.
+     c. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is not accessible in YouTube Music. The song was also officially released as a single, and the official, structurally correct single containing the official song is accessible in YouTube Music.
 
-    e. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording LP, and the official, structurally correct standard recording LP containing the official song is accessible in YouTube Music.
+     d. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is accessible in YouTube Music.
 
-    f. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is not accessible in YouTube Music. The song was also officially released as a single, and the official, structurally correct single containing the official song is accessible in YouTube Music.
+     e. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording LP, and the official, structurally correct standard recording LP containing the official song is accessible in YouTube Music.
 
-    g. The song was officially and originally released as a single, and the official, structurally correct single release containing the official song is accessible in YouTube Music.
+     f. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is not accessible in YouTube Music. The song was also officially released as a single, and the official, structurally correct single containing the official song is accessible in YouTube Music.
 
-    h. The song was officially and originally released as a single, and the official, structurally correct single release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording EP, and the official, structurally correct standard recording EP containing the official song is accessible in YouTube Music.
+     g. The song was officially and originally released as a single, and the official, structurally correct single release containing the official song is accessible in YouTube Music.
 
-    i. The song was officially and originally released as a single, and the official, structurally correct single release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording LP, and the official, structurally correct standard recording LP containing the official song is accessible in YouTube Music.
+     h. The song was officially and originally released as a single, and the official, structurally correct single release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording EP, and the official, structurally correct standard recording EP containing the official song is accessible in YouTube Music.
+
+     i. The song was officially and originally released as a single, and the official, structurally correct single release containing the official song is not accessible in YouTube Music. The song was also officially released within a standard recording LP, and the official, structurally correct standard recording LP containing the official song is accessible in YouTube Music.
 
 2. Insufficient data in YouTube Music achieves at least one of the succeeding findings:
 
-    a. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is not accessible in YouTube Music. There is no official, structurally correct standard recording EP release containing the official song accessible in YouTube Music, and there is no official, structurally correct single release containing the official song accessible in YouTube Music.
+     a. The song was officially and originally released within a standard recording LP, and the official, structurally correct standard recording LP release containing the official song is not accessible in YouTube Music. There is no official, structurally correct standard recording EP release containing the official song accessible in YouTube Music, and there is no official, structurally correct single release containing the official song accessible in YouTube Music.
 
-    b. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is not accessible in YouTube Music. There is no official, structurally correct standard recording LP release containing the official song accessible in YouTube Music, and there is no official, structurally correct single release containing the official song accessible in YouTube Music.
+     b. The song was officially and originally released within a standard recording EP, and the official, structurally correct standard recording EP release containing the official song is not accessible in YouTube Music. There is no official, structurally correct standard recording LP release containing the official song accessible in YouTube Music, and there is no official, structurally correct single release containing the official song accessible in YouTube Music.
 
-    c. The song was officially and originally released within a single, and the official, structurally correct single release containing the official song is not accessible in YouTube Music. There is no official, structurally correct standard recording EP release containing the official song accessible in YouTube Music, and there is no official, structurally correct standard recording LP release containing the official song accessible in YouTube Music.
-    
+     c. The song was officially and originally released within a single, and the official, structurally correct single release containing the official song is not accessible in YouTube Music. There is no official, structurally correct standard recording EP release containing the official song accessible in YouTube Music, and there is no official, structurally correct standard recording LP release containing the official song accessible in YouTube Music.
+
 ## Song Selection Method
 
 1. To guarantee a fair procedure for sonic feature extraction throughout all songs, only URLs for official, earliest accessible song releases through structurally correct standard recording LPs, standard recording EPs, and singles are obtained from YouTube Music. Standard recording LPs, standard recording EPs, and singles represent the primary initiatives where song writing, recording, and arrangement is purposeful and originally produced for a comprehensive listening experience. Conversely, release formats belonging to the specialized audio editions and re-release, specialized compilation, soundtrack, and alternative performance and recording groups represent secondary initiatives that differ from the established selection method. Restricting the pipeline to consume song releases from structurally correct standard recording LPs, standard recording EPs, and singles creates a sonic control variable. The restriction equips the PCA Plot clustering to reflect differences in musical qualities with greater accuracy rather than differences in release formats and engineering output. The PCA Plot presents reasonably accurate sonic representations of each selected song.
@@ -234,13 +234,13 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 1. To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, each corrected primary feeling in the resulting set of usable data rows is mapped to one of the four quadrants in Russell's Core Effect Framework. Functioning as a reliable system for describing the creation of feelings, Russell's Core Effect Framework communicates that all human emotions are almagamations of Valence and Arousal, which are essential neurophysiological dimensions. Valence measures the extent of pleasure and displeasure, and Arousal measures the extent of activation and deactivation. Valence maps to the x-axis where values range from highly unpleasant to highly pleasant, and Arousal maps to the y-axis where values range from highly enervated to highly energized. Moving through the Valence and Arousal neurophysiological dimensions builds a circular space mapping different feelings to the succeeding quadrants:
 
-    a. Quadrant 1 (Top-Right): High Arousal + Positive Valence
+     a. Quadrant 1 (Top-Right): High Arousal + Positive Valence
 
-    b. Quadrant 2 (Top-Left): High Arousal + Negative Valence
+     b. Quadrant 2 (Top-Left): High Arousal + Negative Valence
 
-    c. Quadrant 3 (Bottom-Left): Low Arousal + Negative Valence
+     c. Quadrant 3 (Bottom-Left): Low Arousal + Negative Valence
 
-    d. Quadrant 4 (Bottom-Right): Low Arousal + Positive Valence
+     d. Quadrant 4 (Bottom-Right): Low Arousal + Positive Valence
 
 ## Applying yt-dlp
 
@@ -261,7 +261,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_raw.csv` -> `music_preferences_and_feelings_survey_data_master_structural_base.csv`
-- **Data Shape Change:** 277 rows (2 header rows + 275 data rows) * 19 columns -> 276 (1 header row + 275 data rows) rows * 3 columns
+- **Data Shape Change:** 277 rows (2 header rows + 275 data rows) _ 19 columns -> 276 (1 header row + 275 data rows) rows _ 3 columns
 - **Purpose:** [Initial Quality Sweep - Manual Context Review, Establish Structural Base]
 - **Initial Raw Submissions:** 275 total survey responses
 
@@ -279,9 +279,9 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V2] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_structural_base.csv` -> `music_preferences_and_feelings_survey_data_master_sampled.csv`
-- **Data Shape Change:** 276 (1 header row + 275 data rows) rows * 3 columns -> 86 (1 header row + 85 data rows) rows * 3 columns
+- **Data Shape Change:** 276 (1 header row + 275 data rows) rows _ 3 columns -> 86 (1 header row + 85 data rows) rows _ 3 columns
 - **Purpose:** [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Dataset]
-- **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a Simple Random Sampling method was applied. Executing `simple_random_sampling.py` with a constant random seed (random_state=75) to enforce reproducibility, 85 unique survey responses were randomly selected from the 275 data rows following the *Initial Quality Sweep* in V1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
+- **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a Simple Random Sampling method was applied. Executing `simple_random_sampling.py` with a constant random seed (random_state=75) to enforce reproducibility, 85 unique survey responses were randomly selected from the 275 data rows following the _Initial Quality Sweep_ in V1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
 - **Resulting Batch Size:** 85 data rows
 
 ### Steps Executed:
@@ -293,9 +293,9 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_sampled.csv` -> `music_preferences_and_feelings_survey_data_master_corrected.csv`
-- **Data Shape Change:** 86 (1 header row + 85 data rows) rows * 3 columns -> 46 (1 header row + 45 data rows) rows * 4 columns
+- **Data Shape Change:** 86 (1 header row + 85 data rows) rows _ 3 columns -> 46 (1 header row + 45 data rows) rows _ 4 columns
 - **Purpose:** [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information]
-- **Statistical Acknowledgement**: While the 85 data rows sampled during the *Dataset Truncation (Simple Random Sampling)* in V2 establishes a 95% confidence level and margin of error less than 9% for the full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to 45. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.
+- **Statistical Acknowledgement**: While the 85 data rows sampled during the _Dataset Truncation (Simple Random Sampling)_ in V2 establishes a 95% confidence level and margin of error less than 9% for the full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to 45. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.
 
 ### Steps Executed:
 
@@ -304,23 +304,23 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
      a. [Removal] 1 row deleted because the song, artist, and primary feeling contained exclusively NA values.
 
-     b. [Removal] 26 rows deleted because although the song, artist and primary feeling did not contain exclusively NA values, the song, artist, and primary feeling lacked sufficient written context to achieve both of the succeeding measures as presented in *Data Correction Measures*:
+     b. [Removal] 26 rows deleted because although the song, artist and primary feeling did not contain exclusively NA values, the song, artist, and primary feeling lacked sufficient written context to achieve both of the succeeding measures as presented in _Data Correction Measures_:
 
-        I. A song officially and originally released by the artist where the intention of the respondent is completely clear in the [song_name] and [artist_name] response columns.
+     I. A song officially and originally released by the artist where the intention of the respondent is completely clear in the [song_name] and [artist_name] response columns.
 
-        II. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
+     II. A primary feeling that is one word, completely grammatically correct, reasonably reflects natural speech, and communicates an understandable meaning where the intention of the respondent is reasonably clear in the [primary_feeling] response column.
 
      c. [Removal] 3 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song, the artist did not officially and originally release the song through any of the succeeding formats:
 
-        I. Standard Recording LP
-        
-        II. Standard Recording EP
+     I. Standard Recording LP
 
-        III. Single
+     II. Standard Recording EP
 
-     d. [Removal] 9 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a standard recording LP, standard recording EP, or as a single, the song and artist grouping is connected to insufficient data in YouTube Music as presented in *Data Research Questions* and *Data Evaluation Measures*.
+     III. Single
 
-     e. [Removal] 1 row deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a standard recording LP, standard recording EP, or as a single, and the song and artist grouping is connected to sufficient data in YouTube Music as presented in *Data Research Questions* and *Data Evaluation Measures*, the song and artist grouping is a duplication of a song and artist grouping corrected prior in the *Complete Quality Sweep*.
+     d. [Removal] 9 rows deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a standard recording LP, standard recording EP, or as a single, the song and artist grouping is connected to insufficient data in YouTube Music as presented in _Data Research Questions_ and _Data Evaluation Measures_.
+
+     e. [Removal] 1 row deleted because although there was sufficient written context to verify that the artist officially and originally released the song within a standard recording LP, standard recording EP, or as a single, and the song and artist grouping is connected to sufficient data in YouTube Music as presented in _Data Research Questions_ and _Data Evaluation Measures_, the song and artist grouping is a duplication of a song and artist grouping corrected prior in the _Complete Quality Sweep_.
 
      f. [Correction] Corrected information in [song_name], [artist_name] and [primary_feeling] columns for 45 remaining rows in the sequence.
 
@@ -331,9 +331,9 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V4] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_corrected.csv` -> `music_preferences_and_feelings_survey_data_master_feelings_mapped.csv`
-- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 4 columns -> 46 (1 header row + 45 data rows) rows * 5 columns
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 4 columns -> 46 (1 header row + 45 data rows) rows _ 5 columns
 - **Purpose:** [Primary Feeling Mapping - Python Program Execution, Map each remaining primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework]
-- **Methodology:** To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, executing `primary_feeling_quadrant_mapping.py` maps each remaining primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework as described in *Applying Russell's Core Affect Framework*. Valence maps to the x-axis. Arousal maps to the y-axis. Through examining the coordinates of Valence and Arousal, emotional qualities are categorically represented within the spatial geometry of the PCA Plot.
+- **Methodology:** To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, executing `primary_feeling_quadrant_mapping.py` maps each remaining primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework as described in _Applying Russell's Core Affect Framework_. Valence maps to the x-axis. Arousal maps to the y-axis. Through examining the coordinates of Valence and Arousal, emotional qualities are categorically represented within the spatial geometry of the PCA Plot.
 
 ### Steps Executed:
 
@@ -341,13 +341,13 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 2. **[Mapping Execution]** Executed `primary_feeling_quadrant_mapping.py` to assign each of the 45 remaining primary feelings in the [primary_feeling] column to one of the four quadrants in Russell's Core Affect Framework:
 
-    a. Quadrant 1 (Top-Right): High Arousal + Positive Valence
+     a. Quadrant 1 (Top-Right): High Arousal + Positive Valence
 
-    b. Quadrant 2 (Top-Left): High Arousal + Negative Valence
+     b. Quadrant 2 (Top-Left): High Arousal + Negative Valence
 
-    c. Quadrant 3 (Bottom-Left): Low Arousal + Negative Valence
+     c. Quadrant 3 (Bottom-Left): Low Arousal + Negative Valence
 
-    d. Quadrant 4 (Bottom-Right): Low Arousal + Positive Valence
+     d. Quadrant 4 (Bottom-Right): Low Arousal + Positive Valence
 
 3. **[Integrity Verification]** Verified that complex primary feelings (such as the corrected "Awestruck", and "Melancholic") are evaluated through specific research as a means of preventing skewed categorical representation in the PCA Plot.
 
@@ -356,15 +356,15 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V5] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_feelings_mapped.csv` -> `music_preferences_and_feelings_survey_data_master_song_download.csv`
-- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 5 columns -> 46 (1 header row + 45 data rows) rows * 7 columns
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 5 columns -> 46 (1 header row + 45 data rows) rows _ 7 columns
 - **Purpose:** [Song Downloading, WAV Conversion - Python Program Execution, Download each song in the [song_name] column through the corresponding URL in the [youtube_music_url] column and convert to WAV]
 - **Methodology:** To build a standardized audio collection for sonic feature extraction from Essentia, executing `wav_file_creation.py` utilizes yt-dlp to loop through the 45 remaining data rows and obtain compressed audio streams through the verified song URLs in the [youtube_music_url] column. To enforce consistent file input for sonic feature extraction from Essentia, yt-dlp dictates the underlying FFmpeg processing framework to post-process and transcode the compressed audio streams into uncompressed WAV files.
 
 ### Steps Executed:
 
 1. **[Addition]** Appended 2 columns to record download metadata and WAV filenames:
-    a. [song_download_status]
-    b. [wav_filename]
+   a. [song_download_status]
+   b. [wav_filename]
 2. **[Download Execution]** Executed `wav_file_creation.py` to download the compressed audio stream for each of the 45 remaining data rows from YouTube Music and convert to uncompressed WAV files.
 
 ---
@@ -372,17 +372,17 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V6] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_song_download.csv` -> `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`
-- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 7 columns -> 46 (1 header row + 45 data rows) rows * 19 columns
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 7 columns -> 46 (1 header row + 45 data rows) rows _ 19 columns
 - **Purpose:** [Essentia Sonic Feature Extraction - Python Program Execution, Calculate and record 12 sonic scalar values for each of the 45 remaining data rows through accessing the WAV file referenced in the [wav_filename] column]
 - **Methodology:** To build a collection of sonic features extracted from Essentia, executing `sonic_feature_extraction.py` obtains 12 native, low-level mathematical parameters. During the process, data transformation reduces thousands of frame-by-frame time-series measurements into scalar averages (`.mean`). The sonic features needed to create a consistent data matrix are recorded to `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`.
 
 ### Steps Executed:
 
 1. **[Addition]** Appended 12 columns to record sonic features extracted from Essentia:
-    a. **Rhythm:** `bpm`, `danceability`, `onset_rate`
-    b. **Dynamics:** `average_loudness`, `dynamic_complexity`
-    c. **Spectral & Tonal:** `spectral_energy`, `chords_changes_rate`, `pitch_salience`, `spectral_complexity`
-    d. **Texture & Timbre:** `spectral_centroid`, `barkbands_flatness_db`, `zerocrossingrate`
+   a. **Rhythm:** `bpm`, `danceability`, `onset_rate`
+   b. **Dynamics:** `average_loudness`, `dynamic_complexity`
+   c. **Spectral & Tonal:** `spectral_energy`, `chords_changes_rate`, `pitch_salience`, `spectral_complexity`
+   d. **Texture & Timbre:** `spectral_centroid`, `barkbands_flatness_db`, `zerocrossingrate`
 2. **[Sonic Feature Extraction]** Executed `sonic_feature_extraction.py` to loop through the 45 remaining data rows and process the 12 native, mathematical parameters.`sonic_feature_extraction.py` verified the `song_download_status` and loaded uncompressed WAV files from the `wav_downloads` directory. `sonic_feature_extraction.py` also managed file system exceptions by recording NA values for failed checks.
 
 ---
@@ -390,7 +390,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 ## [2026-7-8 - V7] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:** `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv` -> `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv`
-- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 19 columns -> 46 (1 header row + 45 data rows) rows * 31 columns
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 19 columns -> 46 (1 header row + 45 data rows) rows _ 31 columns
 - **Purpose:** [Sonic Feature Scalar Standardization - Python Program Execution, Standardize the 12 sonic scalar values for each of the 45 remaining data rows]
 - **Methodology:** To prepare the 12 sonic scalar values for correct rendering on the PCA Plot, executing `sonic_feature_standardization.py` loops through the 45 remaining data rows and applies a standardization operation to each of the sonic scalar values. The operation utilizes a z-score normalization to transform each of the 12 sonic scalar values assigning a `mean` of 0 and a `standard deviation` of 1. Since the PCA Plot calculates variance according to magnitude, the geometric relationships between points are accurately presented.
 
@@ -399,17 +399,17 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 1. **[Data Validation]** Verified the integrity of the 12 sonic feature columns from `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`, scanning for missing sonic feature data to guarantee that `scikit-learn` runs without crashing.
 2. **[Z-Score Normalization]** Implemented the `StandardScaler` module to fit and transform the 12 sonic features (`bpm`, `danceability`, `onset_rate`, `average_loudness`, `dynamic_complexity`, `spectral_energy`, `chords_changes_rate`, `pitch_salience`, `spectral_complexity`, `spectral_centroid`, `barkbands_flatness_db`, and `zerocrossingrate`).
 3. **[Addition]** Appended 12 columns containing the scaled sonic scalar values. Each of the appended columns utlizes the `scaled_` prefix:
-    a. **Rhythm:** `scaled_bpm`, `scaled_danceability`, `scaled_onset_rate`
-    b. **Dynamics:** `scaled_average_loudness`, `scaled_dynamic_complexity`
-    c. **Spectral & Tonal:** `scaled_spectral_energy`, `scaled_chords_changes_rate`, `scaled_pitch_salience`, `scaled_spectral_complexity`
-    d. **Texture & Timbre:** `scaled_spectral_centroid`, `scaled_barkbands_flatness_db`, `scaled_zerocrossingrate`
+   a. **Rhythm:** `scaled_bpm`, `scaled_danceability`, `scaled_onset_rate`
+   b. **Dynamics:** `scaled_average_loudness`, `scaled_dynamic_complexity`
+   c. **Spectral & Tonal:** `scaled_spectral_energy`, `scaled_chords_changes_rate`, `scaled_pitch_salience`, `scaled_spectral_complexity`
+   d. **Texture & Timbre:** `scaled_spectral_centroid`, `scaled_barkbands_flatness_db`, `scaled_zerocrossingrate`
 
 ---
 
 ## [2026-7-8 - V8] - [Matthew McAlarney - Web Developer, Data Researcher]
 
 - **Target File:**`music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` -> `pca_matrix.json`
-- **Data Shape Change:** 46 (1 header row + 45 data rows) rows * 31 columns -> JSON Array containing 45 Objects * 33 Key-Value Properties
+- **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 31 columns -> JSON Array containing 45 Objects _ 33 Key-Value Properties
 - **Purpose:** [PCA Dimensionality Reduction - Python Program Execution, Compress 12 multi-dimensional standardized sonic features into 2 static spatial dimensions (`pca_x` and `pca_y`) for PCA Plot rendering]
 - **Methodology:** To map multi-dimensional standardized sonic features onto a 2D scatter plot area, executing `calculate_pca_coordinates.py` applies a linear dimensionality reduction. The reduction projects the 12 standardized sonic features recorded in `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` onto an orthogonal subspace. Songs with highly similar underlying mathematical characteristics closely aggregate on the PCA Plot.
 
@@ -417,6 +417,6 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 1. **[Dimensionality Reduction]** Fitted a 2-component PCA model utilizing `scikit-learn` to transform the 12 scaled sonic features into geographic values.
 2. **[Addition]** Appended 2 columns to record PCA Plot coordinates:
-    a. `pca_x` (Principal Component 1)
-    b. `pca_y` (Principal Component 2)
+   a. `pca_x` (Principal Component 1)
+   b. `pca_y` (Principal Component 2)
 3. **[Serialization and Export]** Transformed the final data matrix from CSV format into a JSON array of objects.
