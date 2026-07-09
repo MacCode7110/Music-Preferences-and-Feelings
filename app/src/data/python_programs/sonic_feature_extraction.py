@@ -69,7 +69,7 @@ program_dir = Path(__file__).parent
 csv_directory = program_dir.parent / "csv_files"
 wav_download_directory = program_dir.parent / "wav_downloads"
 
-input_csv_path = csv_directory / "music_preferences_and_feelings_survey_data_master_song_download.csv"
-output_csv_path = csv_directory / "music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv"
+input_csv_path = csv_directory / "survey_data_master_song_download.csv"
+output_csv_path = csv_directory / "survey_data_master_sonic_feature_calculations.csv"
 
 extract_sonic_features(input_csv_path, output_csv_path, wav_download_directory)

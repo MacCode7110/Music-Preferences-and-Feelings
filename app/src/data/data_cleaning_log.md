@@ -6,23 +6,23 @@ Web Developer and Data Researcher: Matthew McAlarney
 
 ## Data Collection, Cleaning, and Processing Summary
 
-The _Music Preferences And Feelings Survey_ was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total of 275 survey responses from full-time employees were collected and downloaded to `music_preferences_and_feelings_survey_data_master_raw.csv`.
+The _Music Preferences And Emotions Survey_ was administered to a targeted 250 full-time employees in the United States through Survey Monkey from May 28th, 2026 - June 5th, 2026. A total of 275 survey responses from full-time employees were collected and downloaded to `survey_data_master_raw.csv`.
 
-Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dataset and contains open-response survey data that represents human thought and writing, steps are manually executed and executed through Python programs to build the succeeding CSV files:
+Since `survey_data_master_raw.csv` is a small dataset and contains open-response survey data that represents human thought and writing, steps are manually executed and executed through Python programs to build the succeeding CSV files:
 
-1. V1: [Initial Quality Sweep - Manual Context Review, Establish Structural Base] -> `music_preferences_and_feelings_survey_data_master_structural_base.csv`
+1. V1: [Initial Quality Sweep - Manual Context Review, Establish Structural Base] -> `survey_data_master_structural_base.csv`
 
-2. V2: [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Dataset] -> `music_preferences_and_feelings_survey_data_master_sampled.csv`
+2. V2: [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Dataset] -> `survey_data_master_sampled.csv`
 
-3. V3: [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information] -> `music_preferences_and_feelings_survey_data_master_corrected.csv`
+3. V3: [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information] -> `survey_data_master_corrected.csv`
 
-4. V4: [Primary Feeling Mapping - Python Program Execution, Map each data cell in the [primary_feeling] column to a quadrant in Russell's Core Affect Framework] -> `music_preferences_and_feelings_survey_data_master_feelings_mapped.csv`
+4. V4: [Primary Feeling Mapping - Python Program Execution, Map each data cell in the [primary_feeling] column to a quadrant in Russell's Core Affect Framework] -> `survey_data_master_primary_feelings_mapped.csv`
 
-5. V5 [Song Downloading, WAV Conversion - Python Program Execution, Download each song in the [song_name] column through the corresponding URL in the [youtube_music_url] column and convert to WAV] -> `music_preferences_and_feelings_survey_data_master_song_download.csv`
+5. V5 [Song Downloading, WAV Conversion - Python Program Execution, Download each song in the [song_name] column through the corresponding URL in the [youtube_music_url] column and convert to WAV] -> `survey_data_master_song_download.csv`
 
-6. V6 [Essentia Sonic Feature Extraction - Python Program Execution, Calculate and record 12 sonic scalar values for each of the 45 remaining data rows through accessing the WAV file referenced in the [wav_filename] column] -> `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`
+6. V6 [Essentia Sonic Feature Extraction - Python Program Execution, Calculate and record 12 sonic scalar values for each of the 45 remaining data rows through accessing the WAV file referenced in the [wav_filename] column] -> `survey_data_master_sonic_feature_calculations.csv`
 
-7. V7 [Sonic Feature Scalar Standardization - Python Program Execution, Standardize the 12 sonic scalar values for each of the 45 remaining data rows] -> `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv`
+7. V7 [Sonic Feature Scalar Standardization - Python Program Execution, Standardize the 12 sonic scalar values for each of the 45 remaining data rows] -> `survey_data_master_sonic_feature_standardization.csv`
 
 8. V8 [PCA Dimensionality Reduction - Python Program Execution, Compress 12 multi-dimensional standardized sonic features into 2 static spatial dimensions (`pca_x` and `pca_y`) for PCA Plot rendering] -> `pca_matrix.json`
 
@@ -260,7 +260,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V1] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_raw.csv` -> `music_preferences_and_feelings_survey_data_master_structural_base.csv`
+- **Target File:** `survey_data_master_raw.csv` -> `survey_data_master_structural_base.csv`
 - **Data Shape Change:** 277 rows (2 header rows + 275 data rows) _ 19 columns -> 276 (1 header row + 275 data rows) rows _ 3 columns
 - **Purpose:** [Initial Quality Sweep - Manual Context Review, Establish Structural Base]
 - **Initial Raw Submissions:** 275 total survey responses
@@ -278,7 +278,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V2] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_structural_base.csv` -> `music_preferences_and_feelings_survey_data_master_sampled.csv`
+- **Target File:** `survey_data_master_structural_base.csv` -> `survey_data_master_sampled.csv`
 - **Data Shape Change:** 276 (1 header row + 275 data rows) rows _ 3 columns -> 86 (1 header row + 85 data rows) rows _ 3 columns
 - **Purpose:** [Dataset Truncation (Simple Random Sampling) - Python Program Execution, Select Representative Subset of Dataset]
 - **Methodology:** To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a Simple Random Sampling method was applied. Executing `simple_random_sampling.py` with a constant random seed (random_state=75) to enforce reproducibility, 85 unique survey responses were randomly selected from the 275 data rows following the _Initial Quality Sweep_ in V1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis.
@@ -292,7 +292,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V3] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_sampled.csv` -> `music_preferences_and_feelings_survey_data_master_corrected.csv`
+- **Target File:** `survey_data_master_sampled.csv` -> `survey_data_master_corrected.csv`
 - **Data Shape Change:** 86 (1 header row + 85 data rows) rows _ 3 columns -> 46 (1 header row + 45 data rows) rows _ 4 columns
 - **Purpose:** [Complete Quality Sweep & Song URL Insertion - Manual Context Review, Remove Invalid Data and Systematically Correct Information]
 - **Statistical Acknowledgement**: While the 85 data rows sampled during the _Dataset Truncation (Simple Random Sampling)_ in V2 establishes a 95% confidence level and margin of error less than 9% for the full-time employee pool, the rigid domain constraints enforced in V3 decreased the usable data rows to 45. The resulting PCA Plot operates as an exploratory subset of the 85 sampled data rows.
@@ -330,7 +330,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V4] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_corrected.csv` -> `music_preferences_and_feelings_survey_data_master_feelings_mapped.csv`
+- **Target File:** `survey_data_master_corrected.csv` -> `survey_data_master_primary_feelings_mapped.csv`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 4 columns -> 46 (1 header row + 45 data rows) rows _ 5 columns
 - **Purpose:** [Primary Feeling Mapping - Python Program Execution, Map each remaining primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework]
 - **Methodology:** To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, executing `primary_feeling_quadrant_mapping.py` maps each remaining primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework as described in _Applying Russell's Core Affect Framework_. Valence maps to the x-axis. Arousal maps to the y-axis. Through examining the coordinates of Valence and Arousal, emotional qualities are categorically represented within the spatial geometry of the PCA Plot.
@@ -355,7 +355,7 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V5] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_feelings_mapped.csv` -> `music_preferences_and_feelings_survey_data_master_song_download.csv`
+- **Target File:** `survey_data_master_primary_feelings_mapped.csv` -> `survey_data_master_song_download.csv`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 5 columns -> 46 (1 header row + 45 data rows) rows _ 7 columns
 - **Purpose:** [Song Downloading, WAV Conversion - Python Program Execution, Download each song in the [song_name] column through the corresponding URL in the [youtube_music_url] column and convert to WAV]
 - **Methodology:** To build a standardized audio collection for sonic feature extraction from Essentia, executing `wav_file_creation.py` utilizes yt-dlp to loop through the 45 remaining data rows and obtain compressed audio streams through the verified song URLs in the [youtube_music_url] column. To enforce consistent file input for sonic feature extraction from Essentia, yt-dlp dictates the underlying FFmpeg processing framework to post-process and transcode the compressed audio streams into uncompressed WAV files.
@@ -371,10 +371,10 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V6] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_song_download.csv` -> `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`
+- **Target File:** `survey_data_master_song_download.csv` -> `survey_data_master_sonic_feature_calculations.csv`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 7 columns -> 46 (1 header row + 45 data rows) rows _ 19 columns
 - **Purpose:** [Essentia Sonic Feature Extraction - Python Program Execution, Calculate and record 12 sonic scalar values for each of the 45 remaining data rows through accessing the WAV file referenced in the [wav_filename] column]
-- **Methodology:** To build a collection of sonic features extracted from Essentia, executing `sonic_feature_extraction.py` obtains 12 native, low-level mathematical parameters. During the process, data transformation reduces thousands of frame-by-frame time-series measurements into scalar averages (`.mean`). The sonic features needed to create a consistent data matrix are recorded to `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`.
+- **Methodology:** To build a collection of sonic features extracted from Essentia, executing `sonic_feature_extraction.py` obtains 12 native, low-level mathematical parameters. During the process, data transformation reduces thousands of frame-by-frame time-series measurements into scalar averages (`.mean`). The sonic features needed to create a consistent data matrix are recorded to `survey_data_master_sonic_feature_calculations.csv`.
 
 ### Steps Executed:
 
@@ -389,14 +389,14 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V7] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:** `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv` -> `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv`
+- **Target File:** `survey_data_master_sonic_feature_calculations.csv` -> `survey_data_master_sonic_feature_standardization.csv`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 19 columns -> 46 (1 header row + 45 data rows) rows _ 31 columns
 - **Purpose:** [Sonic Feature Scalar Standardization - Python Program Execution, Standardize the 12 sonic scalar values for each of the 45 remaining data rows]
 - **Methodology:** To prepare the 12 sonic scalar values for correct rendering on the PCA Plot, executing `sonic_feature_standardization.py` loops through the 45 remaining data rows and applies a standardization operation to each of the sonic scalar values. The operation utilizes a z-score normalization to transform each of the 12 sonic scalar values assigning a `mean` of 0 and a `standard deviation` of 1. Since the PCA Plot calculates variance according to magnitude, the geometric relationships between points are accurately presented.
 
 ### Steps Executed:
 
-1. **[Data Validation]** Verified the integrity of the 12 sonic feature columns from `music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv`, scanning for missing sonic feature data to guarantee that `scikit-learn` runs without crashing.
+1. **[Data Validation]** Verified the integrity of the 12 sonic feature columns from `survey_data_master_sonic_feature_calculations.csv`, scanning for missing sonic feature data to guarantee that `scikit-learn` runs without crashing.
 2. **[Z-Score Normalization]** Implemented the `StandardScaler` module to fit and transform the 12 sonic features (`bpm`, `danceability`, `onset_rate`, `average_loudness`, `dynamic_complexity`, `spectral_energy`, `chords_changes_rate`, `pitch_salience`, `spectral_complexity`, `spectral_centroid`, `barkbands_flatness_db`, and `zerocrossingrate`).
 3. **[Addition]** Appended 12 columns containing the scaled sonic scalar values. Each of the appended columns utlizes the `scaled_` prefix:
    a. **Rhythm:** `scaled_bpm`, `scaled_danceability`, `scaled_onset_rate`
@@ -408,10 +408,10 @@ Since `music_preferences_and_feelings_survey_data_master_raw.csv` is a small dat
 
 ## [2026-7-8 - V8] - [Matthew McAlarney - Web Developer, Data Researcher]
 
-- **Target File:**`music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` -> `pca_matrix.json`
+- **Target File:**`survey_data_master_sonic_feature_standardization.csv` -> `pca_matrix.json`
 - **Data Shape Change:** 46 (1 header row + 45 data rows) rows _ 31 columns -> JSON Array containing 45 Objects _ 33 Key-Value Properties
 - **Purpose:** [PCA Dimensionality Reduction - Python Program Execution, Compress 12 multi-dimensional standardized sonic features into 2 static spatial dimensions (`pca_x` and `pca_y`) for PCA Plot rendering]
-- **Methodology:** To map multi-dimensional standardized sonic features onto a 2D scatter plot area, executing `calculate_pca_coordinates.py` applies a linear dimensionality reduction. The reduction projects the 12 standardized sonic features recorded in `music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv` onto an orthogonal subspace. Songs with highly similar underlying mathematical characteristics closely aggregate on the PCA Plot.
+- **Methodology:** To map multi-dimensional standardized sonic features onto a 2D scatter plot area, executing `calculate_pca_coordinates.py` applies a linear dimensionality reduction. The reduction projects the 12 standardized sonic features recorded in `survey_data_master_sonic_feature_standardization.csv` onto an orthogonal subspace. Songs with highly similar underlying mathematical characteristics closely aggregate on the PCA Plot.
 
 ### Steps Executed:
 

@@ -51,8 +51,8 @@ def execute_primary_feeling_mapping(input_csv_path, output_csv_path):
 
 program_dir = Path(__file__).parent
 
-input_csv = "../csv_files/music_preferences_and_feelings_survey_data_master_corrected.csv"
-output_csv = "../csv_files/music_preferences_and_feelings_survey_data_master_feelings_mapped.csv"
+input_csv = "../csv_files/survey_data_master_corrected.csv"
+output_csv = "../csv_files/survey_data_master_primary_feelings_mapped.csv"
 
 input_csv_path = program_dir/input_csv
 

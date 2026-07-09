@@ -3,8 +3,8 @@ import pandas as pd
 
 program_dir = Path(__file__).parent
 
-input_csv = "../csv_files/music_preferences_and_feelings_survey_data_master_structural_base.csv"
-output_csv = "../csv_files/music_preferences_and_feelings_survey_data_master_sampled.csv"
+input_csv = "../csv_files/survey_data_master_structural_base.csv"
+output_csv = "../csv_files/survey_data_master_sampled.csv"
 
 input_csv_path = program_dir/input_csv
 

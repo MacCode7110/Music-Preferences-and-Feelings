@@ -33,7 +33,7 @@ def standardize_sonic_features(input_csv_path, output_csv_path):
 program_dir = Path(__file__).parent
 csv_directory = program_dir.parent / "csv_files"
 
-input_csv_path = csv_directory / "music_preferences_and_feelings_survey_data_master_sonic_feature_calculations.csv"
-output_csv_path = csv_directory / "music_preferences_and_feelings_survey_data_master_sonic_feature_standardization.csv"
+input_csv_path = csv_directory / "survey_data_master_sonic_feature_calculations.csv"
+output_csv_path = csv_directory / "survey_data_master_sonic_feature_standardization.csv"
 
 standardize_sonic_features(input_csv_path, output_csv_path)
