@@ -1,11 +1,5 @@
-import InteractiveUMAP from './pages/InteractiveUMAP'
-
-function App() {
-     return (
-          <div>
-               <InteractiveUMAP />
-          </div>
-     )
+const App = () => {
+     return 0
 }
 
 export default App
