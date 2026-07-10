@@ -1,11 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Footer from './Footer';
+import './globals.css';
 
 const Layout = () => {
     return (
-        <div className="app-container" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-            <main style={{ flex: 1 }}>
+        <div className="app-container">
+            <main>
                 <Outlet />
             </main>
             <Footer />
