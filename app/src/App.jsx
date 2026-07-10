@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import InteractivePCA from './pages/InteractivePCA'
 import DataMethodology from './pages/DataMethodology'
+import 'bulma/css/bulma.min.css'
 
 const App = () => {
      return (
