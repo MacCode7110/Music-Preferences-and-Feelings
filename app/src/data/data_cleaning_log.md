@@ -1,6 +1,6 @@
 # Data Cleaning Log
 
-Web Developer and Data Researcher: Matthew McAlarney
+Web Developer, Data Researcher, Scratch DJ, Rapper: Matthew McAlarney
 
 ## Technologies: Python, Pandas, yt-dlp, FFmpeg, Essentia Audio Analysis, PCA (Principal Component Analysis), Russell's Core Affect Framework
 
