@@ -13,7 +13,7 @@ const NavBar = () => {
                               to="/interactive-pca"
                               className="navbar-item"
                          >
-                              Interactive PCA Plot
+                              Interactive PCA
                          </Link>
                          <Link
                               to="/data-methodology"

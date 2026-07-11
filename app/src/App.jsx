@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
-import InteractivePCAPlot from './pages/InteractivePCAPlot'
+import InteractivePCA from './pages/InteractivePCA'
 import DataMethodology from './pages/DataMethodology'
 import 'bulma/css/bulma.min.css'
 
@@ -21,7 +21,7 @@ const App = () => {
                          />
                          <Route
                               path="interactive-pca"
-                              element={<InteractivePCAPlot />}
+                              element={<InteractivePCA />}
                          />
                          <Route
                               path="data-methodology"
