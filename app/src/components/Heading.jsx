@@ -1,8 +1,8 @@
 const Heading = ({ children, size, className }) => {
-    const classes = `title is-${size} ${className}`.trim()
+    const headingClasses = `title is-size-${size} ${className}`.trim()
     
     return (
-        <h1 className={classes}>
+        <h1 className={headingClasses}>
             {children}
         </h1>
     )
