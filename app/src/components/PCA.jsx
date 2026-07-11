@@ -9,7 +9,7 @@ const PCA = () => {
   useEffect(() => {
     if (!pcaData || pcaData.length === 0) return
 
-    const margin = { top: 30, right: 30, bottom: 85, left: 65 }
+    const margin = { top: 45, right: 95, bottom: 85, left: 65 }
     const width = 960 - margin.left - margin.right
     const height = 500 - margin.top - margin.bottom
 
