@@ -21,8 +21,8 @@ const PCA = () => {
       .append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`)
 
-    const xMax = d3.max(pcaData, d => Math.abs(d.pca_x)) * 1.1 || 5
-    const yMax = d3.max(pcaData, d => Math.abs(d.pca_y)) * 1.1 || 5
+    const xMax = d3.max(pcaData, d => Math.abs(d.pca_x)) * 1.25 || 5
+    const yMax = d3.max(pcaData, d => Math.abs(d.pca_y)) * 1.25 || 5
 
     const xScale = d3.scaleLinear().domain([-xMax, xMax]).range([0, width])
     const yScale = d3.scaleLinear().domain([-yMax, yMax]).range([height, 0])
