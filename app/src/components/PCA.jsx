@@ -9,7 +9,14 @@ const PCA = () => {
   useEffect(() => {
     if (!pcaData || pcaData.length === 0) return
 
-    const margin = { top: 45, right: 95, bottom: 85, left: 65 }
+    /* Implementation Details
+      To mathematically center the PCA on the White-Bis Box, opposite margins need to be set equal.
+      Total White-Bis Box Area = 960px * 500px
+      Horizontal Center Point = 480
+      Vertical Center Point = 250
+    */
+    
+    const margin = { top: 65, right: 65, bottom: 65, left: 65 }
     const width = 960 - margin.left - margin.right
     const height = 500 - margin.top - margin.bottom
 
@@ -27,16 +34,16 @@ const PCA = () => {
     const xScale = d3.scaleLinear().domain([-xMax, xMax]).range([0, width])
     const yScale = d3.scaleLinear().domain([-yMax, yMax]).range([height, 0])
 
-    const xAxis = d3.axisBottom(xScale).ticks(8)
+    const xAxis = d3.axisBottom(xScale).ticks(6)
     const yAxis = d3.axisLeft(yScale).ticks(6)
 
     const gridLines = svg.append('g').attr('class', 'grid-lines')
     gridLines.append('line')
       .attr('x1', xScale(0)).attr('x2', xScale(0)).attr('y1', 0).attr('y2', height)
-      .attr('stroke', '#dbdbdb').attr('stroke-width', 2)
+      .attr('stroke', '#dddddd').attr('stroke-width', 1)
     gridLines.append('line')
       .attr('x1', 0).attr('x2', width).attr('y1', yScale(0)).attr('y2', yScale(0))
-      .attr('stroke', '#dbdbdb').attr('stroke-width', 2)
+      .attr('stroke', '#dddddd').attr('stroke-width', 1)
 
     svg.append('g').attr('transform', `translate(0,${height})`).call(xAxis)
     svg.append('g').call(yAxis)
@@ -44,14 +51,14 @@ const PCA = () => {
     svg.append('text')
       .attr('x', width / 2).attr('y', height + 45)
       .attr('text-anchor', 'middle')
-      .attr('class', 'has-text-grey is-size-7')
+      .attr('class', 'has-text-black is-family-monospace is-size-7')
       .text('Principal Component 1 (PC1)')
 
     svg.append('text')
       .attr('transform', 'rotate(-90)')
-      .attr('x', -height / 2).attr('y', -42)
+      .attr('x', -height / 2).attr('y', -45)
       .attr('text-anchor', 'middle')
-      .attr('class', 'has-text-grey is-size-7')
+      .attr('class', 'has-text-black is-family-monospace is-size-7')
       .text('Principal Component 2 (PC2)')
 
     const tooltip = d3.select(tooltipRef.current)
@@ -63,11 +70,11 @@ const PCA = () => {
       .append('circle')
       .attr('cx', d => xScale(d.pca_x))
       .attr('cy', d => yScale(d.pca_y))
-      .attr('r', 6)
+      .attr('r', 8)
       .attr('fill', '#ff0000')
       .attr('opacity', 0.8)
       .attr('stroke', '#fff')
-      .attr('stroke-width', 1.5)
+      .attr('stroke-width', 2)
       .style('cursor', 'pointer')
 
     dots
