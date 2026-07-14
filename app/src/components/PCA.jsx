@@ -107,7 +107,7 @@ const PCA = () => {
       .style('font-size', '12px')
       .style('fill', primaryCol)
       .style('font-weight', 'bold')
-      .text('Principal Component 2 (PC2: Arousal ↑)')
+      .text('Principal Component 2 (PC2: Arousal →)')
 
     svg
       .append('text')
