@@ -29,7 +29,7 @@ const PCA = () => {
     const pcaHei = boxHei - margin.top - margin.bottom
 
     const dotRad = 8,
-      primaryCol = 'rgb(0,0,0)',
+      primaryCol = 'rgb(11, 12, 15)',
       secondaryCol = 'rgb(64, 70, 84)'
 
     const svgElem = d3.select(svgRef.current)
