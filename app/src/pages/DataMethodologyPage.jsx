@@ -115,8 +115,8 @@ const DataMethodologyPage = () => {
         </main>
         <footer className="block mb-1">
           <Content size={5} className="is-family-secondary has-text-black p-5">
-            <span className="is-italic">JavaScript</span>, <span className="is-italic">React</span>, and <span className="is-italic">D3</span> programs were implemented to load and render the corrected
-            survey writing, <span className="is-italic">PCA</span> coordinates, and scaled sonic values stored in <span className="is-italic">pca_matrix.json</span> through the{' '}
+            <span className="is-italic">JavaScript</span>, <span className="is-italic">React</span>, and <span className="is-italic">D3</span> programs were implemented to load and render the
+            corrected survey writing, <span className="is-italic">PCA</span> coordinates, and scaled sonic values stored in <span className="is-italic">pca_matrix.json</span> through the{' '}
             <span className="is-italic">PCA</span>.
           </Content>
         </footer>
