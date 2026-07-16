@@ -62,11 +62,6 @@ const ExploratoryPCAPage = () => {
             <PCA />
           </div>
         </main>
-        <footer className="block mb-3">
-          <Content size={5} className="is-family-secondary has-text-black p-5">
-            Main Conclusions
-          </Content>
-        </footer>
       </div>
     </section>
   )
