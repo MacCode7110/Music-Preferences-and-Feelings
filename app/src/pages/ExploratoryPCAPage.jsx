@@ -12,49 +12,55 @@ const ExploratoryPCAPage = () => {
           </Heading>
           <Content size={5} className="is-family-secondary has-text-black p-5">
             Examine the relationship between musical qualities and the mapping of feelings through <span className="is-italic">Principal Component Analysis (PCA)</span>. The{' '}
-            <span className="is-italic">Exploratory PCA</span> visualizes how different songs cluster according to linear combinations of similar scaled sonic values. Twelve unique scaled sonic values are
-            processed to build the <span className="is-italic">PCA</span> coordinates for each song. Additionally, <span className="is-italic">Russell's Core Affect Framework</span> is implemented to
-            understand how different types and extents of valence and arousal align with <span className="is-italic">PCA</span> coordinates and influence feelings. The{' '}
-            <span className="is-italic">Exploratory PCA</span> offers a comprehensive tooltip to explore all data points and their corresponding song attributes.{' '}
-            <span className="is-italic">Russell's Core Affect Framework</span> maps each <span className="is-italic">Primary Feeling</span> into one of four neurophysiological quadrants depending on
-            the particular manifestation of valence and arousal. Each quadrant is color-coded as{' '}
+            <span className="is-italic">Exploratory PCA</span> visualizes how different songs cluster according to linear combinations of similar scaled sonic values. Twelve unique scaled sonic values
+            are processed to build the <span className="is-italic">PCA</span> coordinates for each song. Additionally, <span className="is-italic">Russell's Core Affect Framework</span> is implemented
+            to understand how different levels of <span className="is-italic">valence</span> and <span className="is-italic">arousal</span> align with <span className="is-italic">PCA</span>{' '}
+            coordinates and influence feelings. The <span className="is-italic">Exploratory PCA</span> offers a comprehensive tooltip to explore all data points and their corresponding song
+            attributes. <span className="is-italic">Russell's Core Affect Framework</span> maps each <span className="is-italic">Primary Feeling</span> into one of four neurophysiological quadrants
+            depending on the particular manifestation of <span className="is-italic">valence</span> and <span className="is-italic">arousal</span>. Each quadrant is color-coded as{' '}
             <span
               style={{
                 color: 'rgb(200, 180, 0)',
+                opacity: 0.8
               }}
             >
-              ■ Quadrant 1 (High Arousal + Positive Valence)
+              ■ Quadrant 1 (High <span className="is-italic">Arousal</span> + Positive <span className="is-italic">Valence</span>)
             </span>
             ,{' '}
             <span
               style={{
                 color: 'rgb(255,0,0)',
+                opacity: 0.8
               }}
             >
-              ■ Quadrant 2 (High Arousal + Negative Valence)
+              ■ Quadrant 2 (High <span className="is-italic">Arousal</span> + Negative <span className="is-italic">Valence</span>)
             </span>
             ,{' '}
             <span
               style={{
                 color: 'rgb(0,0,255)',
+                opacity: 0.8
               }}
             >
-              ■ Quadrant 3 (Low Arousal + Negative Valence)
+              ■ Quadrant 3 (Low <span className="is-italic">Arousal</span> + Negative <span className="is-italic">Valence</span>)
             </span>
             , and{' '}
             <span
               style={{
                 color: 'rgb(0, 180, 0)',
+                opacity: 0.8
               }}
             >
-              ■ Quadrant 4 (Low Arousal + Positive Valence)
+              ■ Quadrant 4 (Low <span className="is-italic">Arousal</span> + Positive <span className="is-italic">Valence</span>)
             </span>
-            . Observe that a subset of songs is associated with a <span className="is-italic">Primary Feeling</span> mapping to a <span className="is-italic">Core Affect Quadrant</span> that differs
-            from the surrounding spatial quadrant in the <span className="is-italic">Exploratory PCA</span>. Although <span className="is-italic">My Sacrifice</span> by{' '}
-            <span className="is-italic">Creed</span> is associated with <span className="is-italic">Core Affect Quadrant 1</span>, the scatter point is spatially located in
-            Quadrant 3 in the <span className="is-italic">Exploratory PCA</span>. This occurrence presents an opportunity to (1) consider why some songs are associated with a particular{' '}
-            <span className="is-italic">Core Affect Quadrant</span> but mathematically cluster to a different spatial quadrant in the <span className="is-italic">Exploratory PCA</span>, and (2)
-            consider why some respondents experience a particular <span className="is-italic">Primary Feeling</span> when listening to a song.
+            . <span className="is-italic">Principal Component 1</span> represents the horizontal axis of <span className="is-italic">valence</span> (moving from negative feeling on the left to
+            positive feeling on the right), while <span className="is-italic">Principal Component 2</span> represents the vertical axis of <span className="is-italic">arousal</span> (moving from
+            low-energy feeling at the bottom to high-energy feeling at the top). Observe that a subset of songs is associated with a <span className="is-italic">Primary Feeling</span> mapping to a{' '}
+            <span className="is-italic">Core Affect Quadrant</span> that differs from the surrounding spatial quadrant in the <span className="is-italic">Exploratory PCA</span>. Although{' '}
+            <span className="is-italic">My Sacrifice</span> by <span className="is-italic">Creed</span> is associated with <span className="is-italic">Core Affect Quadrant 1</span>, the scatter point
+            is spatially located in Quadrant 3 in the <span className="is-italic">Exploratory PCA</span>. This occurrence presents an opportunity to (1) consider why some songs are associated with a
+            particular <span className="is-italic">Core Affect Quadrant</span> but mathematically cluster to a different spatial quadrant in the <span className="is-italic">Exploratory PCA</span>, and
+            (2) consider why some respondents experience a particular <span className="is-italic">Primary Feeling</span> when listening to a song.
           </Content>
         </header>
         <main className="box has-background-white-bis p-5 mb-3">

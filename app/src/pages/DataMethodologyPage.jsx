@@ -18,10 +18,7 @@ const DataMethodologyPage = () => {
             <span className="is-italic">D3</span>, <span className="is-italic">Python</span>, <span className="is-italic">Pandas</span>, <span className="is-italic">yt-dlp</span>,{' '}
             <span className="is-italic">FFmpeg</span>, <span className="is-italic">WAV</span>, <span className="is-italic">Essentia Audio Analysis</span>,{' '}
             <span className="is-italic">PCA (Principal Component Analysis)</span>, and{' '}
-            <span className="is-italic">
-              <span className="is-italic">Russell's Core Affect Framework</span>
-            </span>{' '}
-            were utilized to build <span className="is-italic">Exploratory PCA: Mapping Song Sonics and Feelings</span>. The 275 survey responses stored in{' '}
+            <span className="is-italic">Russell's Core Affect Framework</span> were utilized to build <span className="is-italic">Exploratory PCA: Mapping Song Sonics and Feelings</span>. The 275 survey responses stored in{' '}
             <span className="is-italic">survey_data_master_raw.csv</span> proceeded through 8 unique cleaning and processing phases to build the output file{' '}
             <span className="is-italic">pca_matrix.json</span>. The corrected survey writing, PCA coordinates, and scaled sonic values stored in <span className="is-italic">pca_matrix.json</span> are
             presented through <span className="is-italic">Exploratory PCA: Mapping Song Sonics and Feelings</span>.
@@ -29,45 +26,41 @@ const DataMethodologyPage = () => {
         </header>
         <main className="block mb-1">
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
-            <span className="has-text-weight-semibold">1. Initial Quality Sweep, Manual Context Review, Establishing structural base</span>: <span className="is-italic">survey_data_master_raw.csv</span>{' '}
-            was refactored to only contain <span className="is-italic">[song_name]</span>, <span className="is-italic">[artist_name]</span>, and <span className="is-italic">[primary_feeling]</span>{' '}
-            columns. Additionally, all null values were standardized to display NA. The results were recorded to <span className="is-italic">survey_data_master_structural_base.csv</span>.
+            <span className="has-text-weight-semibold">1. Initial Quality Sweep, Manual Context Review, Establishing structural base</span>:{' '}
+            <span className="is-italic">survey_data_master_raw.csv</span> was refactored to only contain <span className="is-italic">[song_name]</span>,{' '}
+            <span className="is-italic">[artist_name]</span>, and <span className="is-italic">[primary_feeling]</span> columns. Additionally, all null values were standardized to display NA. The
+            results were recorded to <span className="is-italic">survey_data_master_structural_base.csv</span>.
           </Content>
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
             <span className="has-text-weight-semibold">
               2. Dataset Truncation (Simple Random Sampling), <span className="is-italic">Python</span> Program Execution, Selecting representative subset of dataset
             </span>
-            : To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a simple random sampling method was applied.
-            By executing <span className="is-italic">simple_random_sampling.py</span> on <span className="is-italic">survey_data_master_structural_base.csv</span> with a constant random seed
-            (random_state=75) to enforce reproducibility, we randomly selected 85 unique survey responses from the 275 data rows following the{' '}
-            <span className="is-italic">Initial Quality Sweep</span> in Item 1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence
-            level and a margin of error less than 9%. All non-selected responses were omitted from this phase of analysis. The results were recorded to{' '}
-            <span className="is-italic">survey_data_master_sampled.csv</span>.
+            : To maintain an efficient data cleaning workflow and provide an unbiased, representative subset of the full-time employee respondent pool, a simple random sampling method was applied. By
+            executing <span className="is-italic">simple_random_sampling.py</span> on <span className="is-italic">survey_data_master_structural_base.csv</span> with a constant random seed
+            (random_state=75) to enforce reproducibility, we randomly selected 85 unique survey responses from the 275 data rows following the <span className="is-italic">Initial Quality Sweep</span>{' '}
+            in Item 1. The sample size represents approximately 30.9% of the full-time employee respondent pool, which asserts a 95% confidence level and a margin of error less than 9%. All
+            non-selected responses were omitted from this phase of analysis. The results were recorded to <span className="is-italic">survey_data_master_sampled.csv</span>.
           </Content>
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
-            <span className="has-text-weight-semibold">3. Complete Quality Sweep and Song URL Insertion, Manual Context Review, Removing invalid data and systematically correcting information</span>: While
-            the 85 data rows sampled during the <span className="is-italic">Dataset Truncation (Simple Random Sampling)</span> in Item 2 established a 95% confidence level and margin of error less
-            than 9% for the full-time employee pool, the domain constraints enforced in Item 3 decreased the usable data rows to 45. The resulting <span className="is-italic">PCA</span> operates as an
-            exploratory subset of the 85 sampled data rows. The domain constraints detailed in sections <span className="is-italic">Data Correction Measures</span>,{' '}
+            <span className="has-text-weight-semibold">3. Complete Quality Sweep and Song URL Insertion, Manual Context Review, Removing invalid data and systematically correcting information</span>:
+            While the 85 data rows sampled during the <span className="is-italic">Dataset Truncation (Simple Random Sampling)</span> in Item 2 established a 95% confidence level and margin of error
+            less than 9% for the full-time employee pool, the domain constraints enforced in Item 3 decreased the usable data rows to 45. The resulting <span className="is-italic">PCA</span> operates
+            as an exploratory subset of the 85 sampled data rows. The domain constraints detailed in sections <span className="is-italic">Data Correction Measures</span>,{' '}
             <span className="is-italic">Data Research Questions</span>, <span className="is-italic">Data Evaluation Measures</span>, and <span className="is-italic">Song Selection Method</span> in{' '}
             <span className="is-italic">data_methodology_log.md</span> were applied to <span className="is-italic">survey_data_master_sampled.csv</span> to remove invalid data and systematically
             correct information. The results were recorded to <span className="is-italic">survey_data_master_corrected.csv</span>.
           </Content>
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
             <span className="has-text-weight-semibold">
-              4. Primary Feeling Mapping, <span className="is-italic">Python</span> Program Execution, Mapping each remaining primary feeling in the <span className="is-italic">[primary_feeling]</span>{' '}
-              column to one of the four quadrants established in <span className="is-italic">Russell's Core Affect Framework</span>
+              4. Primary Feeling Mapping, <span className="is-italic">Python</span> Program Execution, Mapping each remaining primary feeling in the{' '}
+              <span className="is-italic">[primary_feeling]</span> column to one of the four quadrants established in <span className="is-italic">Russell's Core Affect Framework</span>
             </span>
             : To provide a method for understanding the creation of feelings in comparison to sonic features extracted from <span className="is-italic">Essentia</span>, executing{' '}
             <span className="is-italic">primary_feeling_quadrant_mapping.py</span> on <span className="is-italic">survey_data_master_corrected.csv</span> mapped each remaining primary feeling in the{' '}
             <span className="is-italic">[primary_feeling]</span> column to one of the four quadrants established in <span className="is-italic">Russell's Core Affect Framework</span> as detailed in
-            section{' '}
-            <span className="is-italic">
-              Applying <span className="is-italic">Russell's Core Affect Framework</span>
-            </span>{' '}
-            in <span className="is-italic">data_methodology_log.md</span>. Valence maps to the x-axis. Arousal maps to the y-axis. Through examining the coordinates of valence and arousal, emotional
-            qualities are categorically represented within the spatial geometry of the <span className="is-italic">PCA</span>. The results were recorded to{' '}
-            <span className="is-italic">survey_data_master_primary_feelings_mapped.csv</span>.
+            section <span className="is-italic">Applying Russell's Core Affect Framework</span> in <span className="is-italic">data_methodology_log.md</span>. <span className="is-italic">Valence</span> maps to the x-axis. <span className="is-italic">Arousal</span> maps to the y-axis.
+            Through examining the coordinates of <span className="is-italic">valence</span> and <span className="is-italic">arousal</span>, emotional qualities are categorically represented within the
+            spatial geometry of the <span className="is-italic">PCA</span>. The results were recorded to <span className="is-italic">survey_data_master_primary_feelings_mapped.csv</span>.
           </Content>
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
             <span className="has-text-weight-semibold">
@@ -84,8 +77,8 @@ const DataMethodologyPage = () => {
           </Content>
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
             <span className="has-text-weight-semibold">
-              6. <span className="is-italic">Essentia</span> Sonic Feature Extraction, <span className="is-italic">Python</span> Program Execution, Calculating and recording 12 sonic scalar values for each
-              of the 45 remaining data rows through accessing the <span className="is-italic">WAV</span> file referenced in the <span className="is-italic">[wav_filename]</span> column
+              6. <span className="is-italic">Essentia</span> Sonic Feature Extraction, <span className="is-italic">Python</span> Program Execution, Calculating and recording 12 sonic scalar values for
+              each of the 45 remaining data rows through accessing the <span className="is-italic">WAV</span> file referenced in the <span className="is-italic">[wav_filename]</span> column
             </span>
             : To build a collection of sonic features extracted from <span className="is-italic">Essentia</span>, executing <span className="is-italic">sonic_feature_extraction.py</span> on{' '}
             <span className="is-italic">survey_data_master_song_download.csv</span> obtained 12 native, low-level mathematical parameters. During the process, data transformation reduced thousands of
@@ -104,8 +97,8 @@ const DataMethodologyPage = () => {
           </Content>
           <Content size={5} className="is-family-secondary has-text-black p-5 mb-1">
             <span className="has-text-weight-semibold">
-              8. <span className="is-italic">PCA</span> Dimensionality Reduction, <span className="is-italic">Python</span> Program Execution, Compressing 12 multi-dimensional standardized sonic features
-              into 2 static spatial dimensions (<span className="is-italic">pca_x</span> and <span className="is-italic">pca_y</span>) for <span className="is-italic">PCA</span> rendering
+              8. <span className="is-italic">PCA</span> Dimensionality Reduction, <span className="is-italic">Python</span> Program Execution, Compressing 12 multi-dimensional standardized sonic
+              features into 2 static spatial dimensions (<span className="is-italic">pca_x</span> and <span className="is-italic">pca_y</span>) for <span className="is-italic">PCA</span> rendering
             </span>
             : To map multi-dimensional standardized sonic features onto a 2D scatter plot area, executing <span className="is-italic">calculate_pca_coordinates.py</span> on{' '}
             <span className="is-italic">survey_data_master_sonic_feature_standardization.csv</span> applied a linear dimensionality reduction. The reduction projected the 12 standardized sonic
