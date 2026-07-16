@@ -11,7 +11,7 @@ const ExploratoryPCAPage = () => {
             Music Preferences and Feelings
           </Heading>
           <Content size={5} className="is-family-secondary has-text-black p-5">
-            Examine the relationship between music preferences and the construction of feelings through <span className="is-italic">Principal Component Analysis (PCA)</span>. The{' '}
+            Examine the relationship between musical qualities and the mapping of feelings through <span className="is-italic">Principal Component Analysis (PCA)</span>. The{' '}
             <span className="is-italic">Exploratory PCA</span> visualizes how different songs cluster according to similar scaled sonic and emotional characteristics. 12 unique scaled sonic values are
             processed to build the <span className="is-italic">PCA</span> coordinates for each song. Additionally, <span className="is-italic">Russell's Core Affect Framework</span> is leveraged to
             understand how different types and extents of valence and arousal contribute to the formation of feelings when listening to each song. The{' '}
