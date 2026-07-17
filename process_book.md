@@ -5,20 +5,20 @@
 **Technologies:** Python, Pandas, yt-dlp, FFmpeg, WAV, Essentia Audio Analysis, PCA (Principal Component Analysis), Russell's Core Affect Framework
 
 ## Overview and Motivation
-The **Song Sonics and Feelings** web application was constructed to examine the relationship between song sonics and the mapping of feelings to parametric neurophysiological foundations.
+The **Song Sonics and Emotions** web application was constructed to examine the relationship between song sonics and the mapping of feelings to parametric neurophysiological foundations.
 
-The motivation to develop **Song Sonics and Feelings** was to understand the connection between the sonic qualities of songs and the resulting emotional experience of listeners. Through processing sonic features and mathematically clustering songs within a neurophysiological framework, a *PCA* instance illustrates the level of consistency in which linear combinations of sonic values accurately predict the resulting emotional experience of listeners.
+The motivation to develop **Song Sonics and Emotions** was to understand the connection between the sonic qualities of songs and the resulting primary emotion of listeners. Through processing sonic features and mathematically clustering songs within a neurophysiological framework, a *PCA* instance illustrates the level of consistency in which linear combinations of sonic values accurately predict the resulting primary emotion of listeners.
 
 ## Related Work
 1. **Music Information Retrieval (MIR):** Implementing computational analysis to extract meaningful features from audio signals such as tempo, loudness, and spectral complexity.
-2. **Russell's Core Affect Framework (1980):** A highly influential framework that maps feelings along two neurophysiological dimensions:
+2. **Russell's Core Affect Framework (1980):** A highly influential framework that maps feelings to one of four quadrants along two neurophysiological dimensions:
    * **Valence:** The horizontal axis representing the level of positivity (pleasantness) or negativity (unpleasantness).
    * **Arousal:** The vertical axis representing the physiological level of energy, which ranges from low (sleepy/deactivated) to high (excited/activated).
 
 ## Research Questions
-* How do objective, mathematical audio features (such as spectral complexity, danceability, and onset rate) cluster songs together?
-* To what extent does a song's mathematical sonic profile (modeled via Principal Component Analysis) align with its emotional classification under Russell's Core Affect Framework?
-* Why do certain outlier songs (e.g., *My Sacrifice* by Creed) physically cluster in one quadrant based on their sonics, yet evoke feelings associated with a completely different emotional quadrant?
+* How do scalar sonic features such as `bpm`, `danceability`, and `onset_rate` cluster songs together in a *PCA*?
+* To what extent do linear combinations of song sonics accurately predict the classification of the listener's primary emotion through *Russell's Core Affect Framework*?
+* Why do certain songs such as *My Sacrifice* by *Creed* mathematically cluster in one quadrant according to *PCA* coordinates, yet evoke primary emotions mapping to a different quadrant through *Russell's Core Affect Framework*?
 
 ## Data Sources and Processing
 The data pipeline leverages several robust open-source tools to ingest, process, and analyze audio files:
@@ -72,4 +72,4 @@ This highlights that human emotional response to music is not purely a product o
 ## References
 * Russell, J. A. (1980). *A circumplex model of affect.* Journal of Personality and Social Psychology.
 * Bogdanov, D., et al. (2013). *Essentia: An audio analysis library for music information retrieval.* ISMIR.
-* Project Web App: [Song Sonics and Feelings](https://music-preferences-and-feelings.vercel.app/exploratory-pca)
+* Project Web App: [Song Sonics and Emotions](https://music-preferences-and-feelings.vercel.app/exploratory-pca)
