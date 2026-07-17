@@ -5,33 +5,41 @@
 **Technologies:** Python, Pandas, yt-dlp, FFmpeg, WAV, Essentia Audio Analysis, PCA (Principal Component Analysis), Russell's Core Affect Framework
 
 ## Overview and Motivation
+
 The **Song Sonics & Feelings** web application was constructed to examine the relationship between song sonics and the mapping of feelings to parametric neurophysiological foundations.
 
 The motivation to develop **Song Sonics & Feelings** was to understand the connection between the sonic qualities of songs and the resulting primary feeling of respondents. Through processing sonic features and mathematically clustering songs within a neurophysiological framework, a *PCA* instance illustrates the level of consistency in which linear combinations of sonic values accurately predict the resulting primary feeling of respondents.
 
 ## Related Work
+
 1. **Music Information Retrieval (MIR):** Implementing computational analysis to extract meaningful features from audio signals such as tempo, loudness, and spectral complexity.
 2. **Russell's Core Affect Framework (1980):** A highly influential framework that maps feelings to one of four quadrants along two neurophysiological dimensions:
    * **Valence:** The horizontal axis representing the level of positivity (pleasantness) or negativity (unpleasantness).
    * **Arousal:** The vertical axis representing the physiological level of energy, which ranges from low (sleepy/deactivated) to high (excited/activated).
 
 ## Research Questions
+
 * How do scalar sonic features such as `bpm`, `danceability`, and `onset_rate` cluster songs together in a *PCA*?
 * To what extent do linear combinations of song sonics accurately predict the classification of the respondent's primary feeling through *Russell's Core Affect Framework*?
-* Why do certain songs such as *My Sacrifice* by *Creed* mathematically cluster in one quadrant according to *PCA* coordinates, yet evoke primary feelings mapping to a different quadrant through *Russell's Core Affect Framework*?
+* Why do some songs such as *My Sacrifice* by *Creed* mathematically cluster in one quadrant according to *PCA* coordinates, yet evoke primary feelings mapping to a different quadrant through *Russell's Core Affect Framework*?
 
-## Data Sources and Processing
-The data pipeline leverages several robust open-source tools to ingest, process, and analyze audio files:
+## Data Collection, Cleaning, and Processing Summary
 
-1. **Extraction:** Audio files are sourced and downloaded using `yt-dlp` and decoded into uncompressed `WAV` format via `FFmpeg`.
-2. **Feature Extraction:** The audio analysis library **Essentia** is used to extract 12 key scaled sonic features:
-   * `scaled_bpm`, `scaled_danceability`, `scaled_onset_rate`, `scaled_average_loudness`
-   * `scaled_dynamic_complexity`, `scaled_spectral_energy`, `scaled_chords_changes_rate`
-   * `scaled_pitch_salience`, `scaled_spectral_complexity`, `scaled_spectral_centroid`
-   * `scaled_barkbands_flatness_db`, `scaled_zerocrossingrate`
-3. **Structuring:** The resulting features are compiled, structured, and normalized using `Python` and `Pandas`.
+As detailed in *data_methodology_log.md*, the Song Preference & Feeling Survey was administered to a targeted 250 full-time employees in the United States through SurveyMonkey from May 28th, 2026 to June 5th, 2026. A total of 275 survey responses from full-time employees were collected and stored in `survey_data_master_raw.csv`.
+
+Since `survey_data_master_raw.csv` is a small dataset and contains open-response survey data that represents human thought and writing, steps are manually executed and executed through Python programs to build the succeeding CSV files:
+
+- **V1:** `[Initial Quality Sweep, Manual Context Review, Establish structural base]` $\rightarrow$ `survey_data_master_structural_base.csv`
+- **V2:** `[Dataset Truncation (Simple Random Sampling), Python Program Execution, Select representative subset of dataset]` $\rightarrow$ `survey_data_master_sampled.csv`
+- **V3:** `[Complete Quality Sweep and Song URL Insertion, Manual Context Review, Remove invalid data and systematically correct information]` $\rightarrow$ `survey_data_master_corrected.csv`
+- **V4:** `[Primary Feeling Mapping, Python Program Execution, Map each remaining primary feeling in the [primary_feeling] column to one of the four quadrants established in Russell's Core Affect Framework]` $\rightarrow$ `survey_data_master_primary_feelings_mapped.csv`
+- **V5:** `[Song Downloading and WAV Conversion, Python Program Execution, Download each song in the [song_name] column through the corresponding URL in the [youtube_music_url] column and convert to WAV]` $\rightarrow$ `survey_data_master_song_download.csv`
+- **V6:** `[Essentia Sonic Feature Extraction, Python Program Execution, Calculate and record 12 sonic scalar values for each of the 45 remaining data rows through accessing the WAV file referenced in the [wav_filename] column]` $\rightarrow$ `survey_data_master_sonic_feature_calculations.csv`
+- **V7:** `[Sonic Feature Scalar Standardization, Python Program Execution, Standardize the 12 sonic scalar values for each of the 45 remaining data rows]` $\rightarrow$ `survey_data_master_sonic_feature_standardization.csv`
+- **V8:** `[PCA Dimensionality Reduction, Python Program Execution, Compress 12 multi-dimensional standardized sonic features into 2 static spatial dimensions (pca_x and pca_y) for PCA rendering]` $\rightarrow$ `pca_matrix.json`
 
 ## Design Evolution
+
 The core visual tool is the **Exploratory PCA Scatter Plot**. 
 
 * **Early Concept:** The initial design aimed to plot raw sonic features against one another, which quickly became cluttered due to the high dimensionality (12 distinct features).
@@ -44,12 +52,14 @@ The core visual tool is the **Exploratory PCA Scatter Plot**.
   * 🟩 **Quadrant 4:** Low Arousal + Positive Valence
 
 ## Implementation
+
 The application is built as a highly interactive, responsive web experience deployed on Vercel. 
 * **Frontend:** Interactive scatter plot utilizing modern web standards.
 * **Interactivity:** A comprehensive, hover-enabled tooltip allows users to explore individual data points, revealing detailed sonic attributes, coordinates, and song metadata.
 * **Math Layer:** The alignment of Principal Components to the coordinate plane allows a direct spatial overlay of mathematical song similarities on top of emotional quadrants.
 
 ## Analysis and Findings
+
 The exploratory visualizer successfully demonstrates that songs with similar sonic properties group together. However, a fascinating cognitive gap was identified:
 
 > **The Sonic vs. Emotional Disconnect**
@@ -60,16 +70,19 @@ The exploratory visualizer successfully demonstrates that songs with similar son
 This highlights that human emotional response to music is not purely a product of raw physical sonics; lyricism, nostalgia, cultural context, and personal memory play massive roles in how we process a song's "feeling."
 
 ## Limitations
+
 * **Sample Size & Diversity:** The current dataset represents a curated subset of songs and user responses.
 * **Linear Assumptions:** PCA is a linear dimensionality reduction technique; it may miss complex, non-linear relationships between certain sonic elements.
 * **Subjectivity of Feelings:** Emotional mapping relies on self-reported "Primary Feelings" which vary heavily across different respondent demographics.
 
 ## Future Work
+
 * **Expanding the Dataset:** Incorporating a broader catalog of genres, tempos, and global music styles.
 * **Non-linear Embeddings:** Experimenting with t-SNE or UMAP to see if non-linear dimensionality reduction yields more emotionally cohesive spatial clusters.
 * **Interactive Surveying:** Allowing live users to input their own emotional responses to songs and dynamically updating the database to see how emotional consensus shifts.
 
 ## References
+
 * Russell, J. A. (1980). *A circumplex model of affect.* Journal of Personality and Social Psychology.
 * Bogdanov, D., et al. (2013). *Essentia: An audio analysis library for music information retrieval.* ISMIR.
 * Project Web App: [Song Sonics & Feelings](https://music-preferences-and-feelings.vercel.app/exploratory-pca)
