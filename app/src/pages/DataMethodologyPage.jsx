@@ -17,7 +17,7 @@ const DataMethodologyPage = () => {
             <span className="is-italic">survey_data_master_raw.csv</span>. <span className="is-italic">JavaScript</span>, <span className="is-italic">React</span>,{' '}
             <span className="is-italic">D3</span>, <span className="is-italic">Python</span>, <span className="is-italic">Pandas</span>, <span className="is-italic">yt-dlp</span>,{' '}
             <span className="is-italic">FFmpeg</span>, <span className="is-italic">WAV</span>, <span className="is-italic">Essentia Audio Analysis</span>,{' '}
-            <span className="is-italic">PCA (Principal Component Analysis)</span>, and <span className="is-italic">Russell's Core Affect Framework</span> were utilized to build{' '}
+            <span className="is-italic">Principal Component Analysis (PCA)</span>, and <span className="is-italic">Russell's Core Affect Framework</span> were utilized to build{' '}
             <span className="is-italic">Exploratory PCA: Mapping Song Sonics & Feelings</span>. The 275 survey responses stored in <span className="is-italic">survey_data_master_raw.csv</span>{' '}
             proceeded through 8 unique cleaning and processing phases to build the output file <span className="is-italic">pca_matrix.json</span>. The corrected survey writing, PCA coordinates, and
             scaled sonic values stored in <span className="is-italic">pca_matrix.json</span> are presented through <span className="is-italic">Exploratory PCA: Mapping Song Sonics & Feelings</span>.

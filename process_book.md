@@ -25,7 +25,7 @@ The motivation to develop **Song Sonics & Feelings** was to understand the conne
 
 ## Data Collection, Cleaning, and Processing Summary
 
-As detailed in *data_methodology_log.md*, the Song Preference & Feeling Survey was administered to a targeted 250 full-time employees in the United States through SurveyMonkey from May 28th, 2026 to June 5th, 2026. A total of 275 survey responses from full-time employees were collected and stored in `survey_data_master_raw.csv`.
+As detailed in *data_methodology_log.md*, the *Song Preference & Feeling Survey* was administered to a targeted 250 full-time employees in the United States through SurveyMonkey from May 28th, 2026 to June 5th, 2026. The *Song Preference & Feeling Survey* required each respondent to answer two questions: (1) What is your favorite song? Please enter (1) the song name and (2) the corresponding artist name. Please use correct spelling. (2) What is the primary feeling that your favorite song creates within you? Please enter only one feeling and use correct spelling. A total of 275 survey responses from full-time employees were collected and stored in `survey_data_master_raw.csv`.
 
 Since `survey_data_master_raw.csv` is a small dataset and contains open-response survey data that represents human thought and writing, steps are manually executed and executed through Python programs to build the succeeding CSV files:
 
