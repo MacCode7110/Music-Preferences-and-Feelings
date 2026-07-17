@@ -8,7 +8,7 @@
 
 ## Data Collection, Cleaning, and Processing Summary
 
-The Song Sonics & Feelings Survey was administered to a targeted 250 full-time employees in the United States through SurveyMonkey from May 28th, 2026 to June 5th, 2026. A total of 275 survey responses from full-time employees were collected and stored in `survey_data_master_raw.csv`.
+The Song Preference & Feeling Survey was administered to a targeted 250 full-time employees in the United States through SurveyMonkey from May 28th, 2026 to June 5th, 2026. A total of 275 survey responses from full-time employees were collected and stored in `survey_data_master_raw.csv`.
 
 Since `survey_data_master_raw.csv` is a small dataset and contains open-response survey data that represents human thought and writing, steps are manually executed and executed through Python programs to build the succeeding CSV files:
 
@@ -184,7 +184,7 @@ Conversely, release formats belonging to the specialized audio editions and re-r
 
 ## Applying Russell's Core Affect Framework
 
-To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, each corrected primary feeling in the resulting set of usable data rows is mapped to one of the four quadrants in Russell's Core Affect Framework. Functioning as a reliable system for describing the creation of feelings, Russell's Core Affect Framework communicates that all human emotions are amalgamations of valence and arousal, which are essential neurophysiological dimensions.
+To provide a method for understanding the creation of feelings in comparison to sonic features extracted from Essentia, each corrected primary feeling in the resulting set of usable data rows is mapped to one of the four quadrants in Russell's Core Affect Framework. Functioning as a reliable system for describing the creation of feelings, Russell's Core Affect Framework communicates that all human feelings are amalgamations of valence and arousal, which are essential neurophysiological dimensions.
 
 Valence measures the extent of pleasure and displeasure, and arousal measures the extent of activation and deactivation. Valence maps to the x-axis where values range from highly unpleasant to highly pleasant, and arousal maps to the y-axis where values range from highly enervated to highly energized. Moving through the valence and arousal neurophysiological dimensions builds a circular space mapping different feelings to the succeeding quadrants:
 

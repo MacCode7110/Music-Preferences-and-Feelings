@@ -18,7 +18,7 @@ The motivation to develop **Song Sonics & Feelings** was to understand the conne
 ## Research Questions
 * How do scalar sonic features such as `bpm`, `danceability`, and `onset_rate` cluster songs together in a *PCA*?
 * To what extent do linear combinations of song sonics accurately predict the classification of the listener's primary feeling through *Russell's Core Affect Framework*?
-* Why do certain songs such as *My Sacrifice* by *Creed* mathematically cluster in one quadrant according to *PCA* coordinates, yet evoke primary emotions mapping to a different quadrant through *Russell's Core Affect Framework*?
+* Why do certain songs such as *My Sacrifice* by *Creed* mathematically cluster in one quadrant according to *PCA* coordinates, yet evoke primary feelings mapping to a different quadrant through *Russell's Core Affect Framework*?
 
 ## Data Sources and Processing
 The data pipeline leverages several robust open-source tools to ingest, process, and analyze audio files:

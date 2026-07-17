@@ -10,8 +10,8 @@ const DataMethodologyPage = () => {
             Data Methodology
           </Heading>
           <Content size={5} className="is-family-secondary has-text-black p-5">
-            The <span className="is-italic">Song Sonics & Feelings Survey</span> was administered to a targeted 250 full-time employees in the United States through SurveyMonkey distribution
-            panels from May 28th, 2026 to June 5th, 2026. The <span className="is-italic">Song Sonics & Feelings Survey</span> also required each respondent to answer two questions: (1) What
+            The <span className="is-italic">Song Preference & Feeling Survey</span> was administered to a targeted 250 full-time employees in the United States through SurveyMonkey distribution
+            panels from May 28th, 2026 to June 5th, 2026. The <span className="is-italic">Song Preference & Feeling Survey</span> also required each respondent to answer two questions: (1) What
             is your favorite song? Please enter (1) the song name and (2) the corresponding artist name. Please use correct spelling. (2) What is the primary feeling that your favorite song creates
             within you? Please enter only one feeling and use correct spelling. A total of 275 survey responses were collected and stored in{' '}
             <span className="is-italic">survey_data_master_raw.csv</span>. <span className="is-italic">JavaScript</span>, <span className="is-italic">React</span>,{' '}
