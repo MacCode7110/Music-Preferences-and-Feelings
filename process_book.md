@@ -98,7 +98,7 @@ Since `survey_data_master_raw.csv` is a small dataset and contains open-response
 
 ## Web Implementation Details
 
-* **Summary:** The **Song Sonics & Feelings** web application is compiled through Vite, and was developed utilizing JavaScript, React, Bulma CSS, and D3. The web application is deployed to Vercel and is accessed through https://song-sonics-and-feelings.vercel.app/exploratory-pca.
+* **Summary:** The **Song Sonics & Feelings** web application is compiled through Vite, and was developed utilizing JavaScript, React, Bulma CSS, and D3. The web application is deployed to Vercel.
 
 * **UI Wireframe Designs:** UI wireframes were designed for the Exploratory PCA and Data Methodology rendered in the **Song Sonics & Feelings** web application. The UI wireframes provided a general arrangement for the React components rendered in the **Song Sonics & Feelings** web application.
 
