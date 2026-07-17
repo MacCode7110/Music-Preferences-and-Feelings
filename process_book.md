@@ -85,7 +85,7 @@ Since `survey_data_master_raw.csv` is a small dataset and contains open-response
   * **Color-Coded Quadrant Labels:** Each quadrant in *Russell's Core Affect Framework* is presented in the *PCA* through a corresponding label. Each label is color-coded according to the represented quadrant and is altered with an opacity of 0.2. The primary focus of the *PCA* is maintained because the low-opacity labels do not obscure the high-opacity data points.
   * **Emphasizing Cognitive Dissonance:** The presence of color-coded data points and quadrants immediately reveals anomalies. For instance, *My Sacrifice* by *Creed* is associated with a *Primary Feeling* mapping to Quadrant 1 (rgb(200, 180, 0)), but the data point is located in Quadrant 3 (rgb(0, 0, 255)). This occurrence draws attention and consideration for why some respondents experience a particular *Primary Feeling* when listening to a song.
 
-* **PCA Tooltip Design:**
+* **PCA Tooltip Design Decisions:**
 
   Since *PCA* abstracts 12 unique sonic features into *PC1* and *PC2*, the 2D scatter plot cannot completely communicate why a song mathematically clustered to a particular quadrant in *Russell's Core Affect Framework*. The interactive tooltip offers the data required to form a complete understanding of song location.
   
@@ -97,12 +97,11 @@ Since `survey_data_master_raw.csv` is a small dataset and contains open-response
 
 ---
 
-## Implementation Details
+## Web Implementation Details
 
-The application is built as a highly interactive, responsive web experience deployed on Vercel. 
-* **Frontend:** Interactive scatter plot utilizing modern web standards.
-* **Interactivity:** A comprehensive, hover-enabled tooltip allows users to explore individual data points, revealing detailed sonic attributes, coordinates, and song metadata.
-* **Math Layer:** The alignment of Principal Components to the coordinate plane allows a direct spatial overlay of mathematical song similarities on top of emotional quadrants.
+* **Summary:** The **Song Sonics & Feelings** web application is compiled through Vite, and was developed utilizing JavaScript, React, Bulma CSS, and D3. The web application is deployed to Vercel and is accessed through https://song-sonics-and-feelings.vercel.app/exploratory-pca.
+
+* **Complexity Consideration:** Since the *Song Preference & Feeling Survey* was administered during a finite period to collect the *song_name*, *artist_name*, and *primary_feeling* data rendered through the *PCA*, *pca_matrix.json* functions as a static dataset. CSV files are exclusively built to move the data through different cleaning and processing phases. HTTP requests to external APIs are not required to obtain sonic features for each song. As a result, the **Song Sonics & Feelings** web application completely avoids consuming uneeded network bandwidth.
 
 ---
 
